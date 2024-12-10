@@ -159,6 +159,32 @@ Content of `<Result>`:
 </DIDL-Lite>
 ```
 
+### Download file
+
+```
+GET /DL01010979.JPG HTTP/1.1
+Host: 192.168.54.1:50001
+Accept: */*
+Accept-Encoding: deflate, gzip
+
+
+HTTP/1.1 200 OK
+Date: Fri, 31 Mar 19324 11:47:28 GMT
+Server: Panasonic
+Cache-Control: no-cache
+Pragma: no-cache
+Transfer-Encoding: chunked
+Content-Type: image/jpeg
+Accept-Ranges: bytes
+transferMode.dlna.org:Interactive
+X-REC_DATE_TIME: 2024-12-10T21:21:34
+X-ROTATE_INFO: 1
+X-FILE_SIZE: 41639
+Connection: Keep-Alive
+
+<binary data>
+```
+
 ### Delete file
 
 ```xml
