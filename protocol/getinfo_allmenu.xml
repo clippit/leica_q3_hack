@@ -1,0 +1,1826 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<camrply>
+<result>ok</result>
+
+<menuset model="LeicaQ3" version="3.0" date="20230828">
+
+<photosettings>
+<menu>
+<item id="menu_item_id_drivemode" title_id="title_drivemode" func_type="sp_embeded_drivemode" >
+<menu>
+<item id="menu_item_id_drivemode_single" title_id="title_drivemode_single" cmd_mode="setsetting" cmd_type="drivemode_flat" cmd_value="single" >
+</item>
+<item id="menu_item_id_drivemode_burst_s" title_id="title_drivemode_burst_s" cmd_mode="setsetting" cmd_type="drivemode_flat" cmd_value="burst_s" >
+</item>
+<item id="menu_item_id_drivemode_burst_m" title_id="title_drivemode_burst_m" cmd_mode="setsetting" cmd_type="drivemode_flat" cmd_value="burst_m" >
+</item>
+<item id="menu_item_id_drivemode_burst_mh" title_id="title_drivemode_burst_mh" cmd_mode="setsetting" cmd_type="drivemode_flat" cmd_value="burst_mh" >
+</item>
+<item id="menu_item_id_drivemode_burst_f" title_id="title_drivemode_burst_f" cmd_mode="setsetting" cmd_type="drivemode_flat" cmd_value="burst_f" >
+</item>
+<item id="menu_item_id_drivemode_burst_ss" title_id="title_drivemode_burst_ss" cmd_mode="setsetting" cmd_type="drivemode_flat" cmd_value="burst_ss" >
+</item>
+<item id="menu_item_id_drivemode_bracketing" title_id="title_drivemode_bracketing" func_type="submenu" cmd_mode="setsetting" cmd_type="drivemode_flat" cmd_value="bracketing" >
+<menu>
+<item id="menu_item_id_bracket_frames" title_id="title_bracket_frames" func_type="select" >
+<group>
+<item id="menu_item_id_bracket_frames_3" title_id="title_bracket_frames_3" cmd_mode="setsetting" cmd_type="bracket_frames" cmd_value="3" >
+</item>
+<item id="menu_item_id_bracket_frames_5" title_id="title_bracket_frames_5" cmd_mode="setsetting" cmd_type="bracket_frames" cmd_value="5" >
+</item>
+</group>
+</item>
+<item id="menu_item_id_bracket_aperture" title_id="title_bracket_aperture" func_type="select" >
+<group>
+<item id="menu_item_id_bracket_aperture_1_3" title_id="title_bracket_aperture_1_3" cmd_mode="setsetting" cmd_type="bracket_aperture" cmd_value="1/3" >
+</item>
+<item id="menu_item_id_bracket_aperture_2_3" title_id="title_bracket_aperture_2_3" cmd_mode="setsetting" cmd_type="bracket_aperture" cmd_value="2/3" >
+</item>
+<item id="menu_item_id_bracket_aperture_1" title_id="title_bracket_aperture_1" cmd_mode="setsetting" cmd_type="bracket_aperture" cmd_value="1" >
+</item>
+<item id="menu_item_id_bracket_aperture_4_3" title_id="title_bracket_aperture_4_3" cmd_mode="setsetting" cmd_type="bracket_aperture" cmd_value="4/3" >
+</item>
+<item id="menu_item_id_bracket_aperture_5_3" title_id="title_bracket_aperture_5_3" cmd_mode="setsetting" cmd_type="bracket_aperture" cmd_value="5/3" >
+</item>
+<item id="menu_item_id_bracket_aperture_2" title_id="title_bracket_aperture_2" cmd_mode="setsetting" cmd_type="bracket_aperture" cmd_value="2" >
+</item>
+<item id="menu_item_id_bracket_aperture_7_3" title_id="title_bracket_aperture_7_3" cmd_mode="setsetting" cmd_type="bracket_aperture" cmd_value="7/3" >
+</item>
+<item id="menu_item_id_bracket_aperture_8_3" title_id="title_bracket_aperture_8_3" cmd_mode="setsetting" cmd_type="bracket_aperture" cmd_value="8/3" >
+</item>
+<item id="menu_item_id_bracket_aperture_3" title_id="title_bracket_aperture_3" cmd_mode="setsetting" cmd_type="bracket_aperture" cmd_value="3" >
+</item>
+</group>
+</item>
+<item id="menu_item_id_bracket_exposure" title_id="title_bracket_exposure" func_type="select" >
+<group>
+<item id="menu_item_id_bracket_exposure_m3" title_id="title_bracket_exposure_m3" cmd_mode="setsetting" cmd_type="bracket_exposure" cmd_value="-3" >
+</item>
+<item id="menu_item_id_bracket_exposure_m8_3" title_id="title_bracket_exposure_m8_3" cmd_mode="setsetting" cmd_type="bracket_exposure" cmd_value="-8/3" >
+</item>
+<item id="menu_item_id_bracket_exposure_m7_3" title_id="title_bracket_exposure_m7_3" cmd_mode="setsetting" cmd_type="bracket_exposure" cmd_value="-7/3" >
+</item>
+<item id="menu_item_id_bracket_exposure_m2" title_id="title_bracket_exposure_m2" cmd_mode="setsetting" cmd_type="bracket_exposure" cmd_value="-2" >
+</item>
+<item id="menu_item_id_bracket_exposure_m5_3" title_id="title_bracket_exposure_m5_3" cmd_mode="setsetting" cmd_type="bracket_exposure" cmd_value="-5/3" >
+</item>
+<item id="menu_item_id_bracket_exposure_m4_3" title_id="title_bracket_exposure_m4_3" cmd_mode="setsetting" cmd_type="bracket_exposure" cmd_value="-4/3" >
+</item>
+<item id="menu_item_id_bracket_exposure_m1" title_id="title_bracket_exposure_m1" cmd_mode="setsetting" cmd_type="bracket_exposure" cmd_value="-1" >
+</item>
+<item id="menu_item_id_bracket_exposure_m2_3" title_id="title_bracket_exposure_m2_3" cmd_mode="setsetting" cmd_type="bracket_exposure" cmd_value="-2/3" >
+</item>
+<item id="menu_item_id_bracket_exposure_m1_3" title_id="title_bracket_exposure_m1_3" cmd_mode="setsetting" cmd_type="bracket_exposure" cmd_value="-1/3" >
+</item>
+<item id="menu_item_id_bracket_exposure_0" title_id="title_bracket_exposure_0" cmd_mode="setsetting" cmd_type="bracket_exposure" cmd_value="0" >
+</item>
+<item id="menu_item_id_bracket_exposure_p1_3" title_id="title_bracket_exposure_p1_3" cmd_mode="setsetting" cmd_type="bracket_exposure" cmd_value="1/3" >
+</item>
+<item id="menu_item_id_bracket_exposure_p2_3" title_id="title_bracket_exposure_p2_3" cmd_mode="setsetting" cmd_type="bracket_exposure" cmd_value="2/3" >
+</item>
+<item id="menu_item_id_bracket_exposure_p1" title_id="title_bracket_exposure_p1" cmd_mode="setsetting" cmd_type="bracket_exposure" cmd_value="1" >
+</item>
+<item id="menu_item_id_bracket_exposure_p4_3" title_id="title_bracket_exposure_p4_3" cmd_mode="setsetting" cmd_type="bracket_exposure" cmd_value="4/3" >
+</item>
+<item id="menu_item_id_bracket_exposure_p5_3" title_id="title_bracket_exposure_p5_3" cmd_mode="setsetting" cmd_type="bracket_exposure" cmd_value="5/3" >
+</item>
+<item id="menu_item_id_bracket_exposure_p2" title_id="title_bracket_exposure_p2" cmd_mode="setsetting" cmd_type="bracket_exposure" cmd_value="2" >
+</item>
+<item id="menu_item_id_bracket_exposure_p7_3" title_id="title_bracket_exposure_p7_3" cmd_mode="setsetting" cmd_type="bracket_exposure" cmd_value="7/3" >
+</item>
+<item id="menu_item_id_bracket_exposure_p8_3" title_id="title_bracket_exposure_p8_3" cmd_mode="setsetting" cmd_type="bracket_exposure" cmd_value="8/3" >
+</item>
+<item id="menu_item_id_bracket_exposure_p3" title_id="title_bracket_exposure_p3" cmd_mode="setsetting" cmd_type="bracket_exposure" cmd_value="3" >
+</item>
+</group>
+</item>
+<item id="menu_item_id_bracket_auto" title_id="title_bracket_auto" func_type="on_off" cmd_mode="setsetting" cmd_type="bracket_auto" cmd_value="__value__" >
+</item>
+</menu>
+</item>
+</menu>
+</item>
+
+<item id="menu_item_id_selftimer" title_id="title_selftimer" func_type="select" >
+<group>
+<item id="menu_item_id_selftimer_off" title_id="title_selftimer_off" cmd_mode="setsetting" cmd_type="selftimer" cmd_value="off" >
+</item>
+<item id="menu_item_id_selftimer_2sec" title_id="title_selftimer_2sec" cmd_mode="setsetting" cmd_type="selftimer" cmd_value="2sec" >
+</item>
+<item id="menu_item_id_selftimer_12sec" title_id="title_selftimer_12sec" cmd_mode="setsetting" cmd_type="selftimer" cmd_value="12sec" >
+</item>
+</group>
+</item>
+
+<item id="menu_item_id_focus" title_id="title_focus" func_type="select" >
+<group>
+<item id="menu_item_id_focusmode" title_id="title_focusmode" func_type="select" >
+<group>
+<item id="menu_item_id_focusmode_aff" title_id="title_focusmode_aff" cmd_mode="setsetting" cmd_type="focusmode" cmd_value="aff" >
+</item>
+<item id="menu_item_id_focusmode_afs" title_id="title_focusmode_afs" cmd_mode="setsetting" cmd_type="focusmode" cmd_value="afs" >
+</item>
+<item id="menu_item_id_focusmode_afc" title_id="title_focusmode_afc" cmd_mode="setsetting" cmd_type="focusmode" cmd_value="afc" >
+</item>
+</group>
+</item>
+<item id="menu_item_id_afmode" title_id="title_afmode" func_type="select" >
+<group>
+<item id="menu_item_id_afmode_multi_field" title_id="title_afmode_multi_field" cmd_mode="setsetting" cmd_type="afmode" cmd_value="multi_field" >
+</item>
+<item id="menu_item_id_afmode_spot" title_id="title_afmode_spot" cmd_mode="setsetting" cmd_type="afmode" cmd_value="spot" >
+</item>
+<item id="menu_item_id_afmode_1area" title_id="title_afmode_1area" cmd_mode="setsetting" cmd_type="afmode" cmd_value="1area" >
+</item>
+<item id="menu_item_id_afmode_zone" title_id="title_afmode_zone" cmd_mode="setsetting" cmd_type="afmode" cmd_value="zone" >
+</item>
+<item id="menu_item_id_afmode_aftracking" title_id="title_afmode_aftracking" cmd_mode="setsetting" cmd_type="afmode" cmd_value="aftracking" >
+</item>
+<item id="menu_item_id_afmode_facedetection" title_id="title_afmode_facedetection" cmd_mode="setsetting" cmd_type="afmode" cmd_value="facedetection" >
+</item>
+<item id="menu_item_id_afmode_auto_recognize" title_id="title_afmode_auto_recognize" cmd_mode="setsetting" cmd_type="afmode" cmd_value="auto_recognize" >
+</item>
+</group>
+</item>
+<item id="menu_item_id_touch_af" title_id="title_touch_af" func_type="select" >
+<group>
+<item id="menu_item_id_touch_af_off" title_id="title_touch_af_off" cmd_mode="setsetting" cmd_type="touch_af" cmd_value="off" >
+</item>
+<item id="menu_item_id_touch_af_on" title_id="title_touch_af_on" cmd_mode="setsetting" cmd_type="touch_af" cmd_value="on" >
+</item>
+<item id="menu_item_id_touch_af_touch_shut" title_id="title_touch_af_touch_shut" cmd_mode="setsetting" cmd_type="touch_af" cmd_value="touch_shut" >
+</item>
+</group>
+</item>
+</group>
+</item>
+
+<item id="menu_item_id_lightmet" title_id="title_lightmet" func_type="select" >
+<group>
+<item id="menu_item_id_lightmet_spot" title_id="title_lightmet_spot" cmd_mode="setsetting" cmd_type="lightmetering" cmd_value="spot" >
+</item>
+<item id="menu_item_id_lightmet_center" title_id="title_lightmet_center" cmd_mode="setsetting" cmd_type="lightmetering" cmd_value="center" >
+</item>
+<item id="menu_item_id_lightmet_highlight" title_id="title_lightmet_highlight" cmd_mode="setsetting" cmd_type="lightmetering" cmd_value="highlight" >
+</item>
+<item id="menu_item_id_lightmet_multi" title_id="title_lightmet_multi" cmd_mode="setsetting" cmd_type="lightmetering" cmd_value="multi" >
+</item>
+</group>
+</item>
+
+<item id="menu_item_id_photoformat" title_id="title_photoformat" func_type="select" >
+<group>
+<item id="menu_item_id_photoformat_dng" title_id="title_photoformat_dng" cmd_mode="setsetting" cmd_type="photo_format" cmd_value="dng" >
+</item>
+<item id="menu_item_id_photoformat_jpg_dng" title_id="title_photoformat_jpg_dng" cmd_mode="setsetting" cmd_type="photo_format" cmd_value="jpg_dng" >
+</item>
+<item id="menu_item_id_photoformat_jpg" title_id="title_photoformat_jpg" cmd_mode="setsetting" cmd_type="photo_format" cmd_value="jpg" >
+</item>
+</group>
+</item>
+
+<item id="menu_item_id_dng_reso" title_id="title_dng_reso" func_type="select" >
+<group>
+<item id="menu_item_id_dng_reso_l_dng" title_id="title_dng_reso_l_dng" cmd_mode="setsetting" cmd_type="dng_reso" cmd_value="l_dng" >
+</item>
+<item id="menu_item_id_dng_reso_m_dng" title_id="title_dng_reso_m_dng" cmd_mode="setsetting" cmd_type="dng_reso" cmd_value="m_dng" >
+</item>
+<item id="menu_item_id_dng_reso_s_dng" title_id="title_dng_reso_s_dng" cmd_mode="setsetting" cmd_type="dng_reso" cmd_value="s_dng" >
+</item>
+</group>
+</item>
+
+<item id="menu_item_id_pictsizetype" title_id="title_pictsizetype" func_type="select" >
+<group>
+<item id="menu_item_id_pictsizetype_l_jpg" title_id="title_pictsizetype_l_jpg" cmd_mode="setsetting" cmd_type="pictsizetype" cmd_value="l_jpg" >
+</item>
+<item id="menu_item_id_pictsizetype_m_jpg" title_id="title_pictsizetype_m_jpg" cmd_mode="setsetting" cmd_type="pictsizetype" cmd_value="m_jpg" >
+</item>
+<item id="menu_item_id_pictsizetype_s_jpg" title_id="title_pictsizetype_s_jpg" cmd_mode="setsetting" cmd_type="pictsizetype" cmd_value="s_jpg" >
+</item>
+</group>
+</item>
+
+<item id="menu_item_id_colormode" title_id="title_colormode" func_type="select" >
+<group>
+<item id="menu_item_id_colormode_standard" title_id="title_colormode_standard" cmd_mode="setsetting" cmd_type="colormode" cmd_value="standard" >
+</item>
+<item id="menu_item_id_colormode_vivid" title_id="title_colormode_vivid" cmd_mode="setsetting" cmd_type="colormode" cmd_value="vivid" >
+</item>
+<item id="menu_item_id_colormode_natural" title_id="title_colormode_natural" cmd_mode="setsetting" cmd_type="colormode" cmd_value="natural" >
+</item>
+<item id="menu_item_id_colormode_bw" title_id="title_colormode_bw" cmd_mode="setsetting" cmd_type="colormode" cmd_value="bw" >
+</item>
+<item id="menu_item_id_colormode_l_bw" title_id="title_colormode_l_bw" cmd_mode="setsetting" cmd_type="colormode" cmd_value="l_bw" >
+</item>
+</group>
+</item>
+
+<item id="menu_item_id_lut" title_id="title_lut" func_type="select" >
+<group>
+<item id="menu_item_id_lut_1" title_id="title_lut_1" cmd_mode="setsetting" cmd_type="lut" cmd_value="1" >
+</item>
+<item id="menu_item_id_lut_2" title_id="title_lut_2" cmd_mode="setsetting" cmd_type="lut" cmd_value="2" >
+</item>
+<item id="menu_item_id_lut_3" title_id="title_lut_3" cmd_mode="setsetting" cmd_type="lut" cmd_value="3" >
+</item>
+<item id="menu_item_id_lut_4" title_id="title_lut_4" cmd_mode="setsetting" cmd_type="lut" cmd_value="4" >
+</item>
+<item id="menu_item_id_lut_5" title_id="title_lut_5" cmd_mode="setsetting" cmd_type="lut" cmd_value="5" >
+</item>
+<item id="menu_item_id_lut_6" title_id="title_lut_6" cmd_mode="setsetting" cmd_type="lut" cmd_value="6" >
+</item>
+</group>
+</item>
+
+<item id="menu_item_id_photoaspect" title_id="title_photoaspect" func_type="select" >
+<group>
+<item id="menu_item_id_photoaspect_3:2" title_id="title_photoaspect_3:2" cmd_mode="setsetting" cmd_type="aspectratio" cmd_value="3:2" >
+</item>
+<item id="menu_item_id_photoaspect_4:3" title_id="title_photoaspect_4:3" cmd_mode="setsetting" cmd_type="aspectratio" cmd_value="4:3" >
+</item>
+<item id="menu_item_id_photoaspect_1:1" title_id="title_photoaspect_1:1" cmd_mode="setsetting" cmd_type="aspectratio" cmd_value="1:1" >
+</item>
+<item id="menu_item_id_photoaspect_16:9" title_id="title_photoaspect_16:9" cmd_mode="setsetting" cmd_type="aspectratio" cmd_value="16:9" >
+</item>
+</group>
+</item>
+
+<item id="menu_item_id_videoformat" title_id="title_videoformat" func_type="select" >
+<group>
+<item id="menu_item_id_videoformat_mov" title_id="title_videoformat_mov" cmd_mode="setsetting" cmd_type="videoformat" cmd_value="mov" >
+</item>
+<item id="menu_item_id_videoformat_mp4" title_id="title_videoformat_mp4" cmd_mode="setsetting" cmd_type="videoformat" cmd_value="mp4" >
+</item>
+</group>
+</item>
+
+<item id="menu_item_id_v_quality" title_id="title_v_quality" func_type="select" >
+<group>
+<item id="menu_item_id_v_quality_mov_30p_300mbps_c8k_420_10bit" title_id="title_v_quality_mov_30p_300mbps_c8k_420_10bit" cmd_mode="setsetting" cmd_type="videoquality" cmd_value="mov_30p_300mbps_c8k_420_10bit" >
+</item>
+<item id="menu_item_id_v_quality_mov_25p_300mbps_c8k_420_10bit" title_id="title_v_quality_mov_25p_300mbps_c8k_420_10bit" cmd_mode="setsetting" cmd_type="videoquality" cmd_value="mov_25p_300mbps_c8k_420_10bit" >
+</item>
+<item id="menu_item_id_v_quality_mov_c24p_300mbps_c8k_420_10bit" title_id="title_v_quality_mov_c24p_300mbps_c8k_420_10bit" cmd_mode="setsetting" cmd_type="videoquality" cmd_value="mov_c24p_300mbps_c8k_420_10bit" >
+</item>
+<item id="menu_item_id_v_quality_mov_24p_300mbps_c8k_420_10bit" title_id="title_v_quality_mov_24p_300mbps_c8k_420_10bit" cmd_mode="setsetting" cmd_type="videoquality" cmd_value="mov_24p_300mbps_c8k_420_10bit" >
+</item>
+<item id="menu_item_id_v_quality_mov_30p_300mbps_8k_420_10bit" title_id="title_v_quality_mov_30p_300mbps_8k_420_10bit" cmd_mode="setsetting" cmd_type="videoquality" cmd_value="mov_30p_300mbps_8k_420_10bit" >
+</item>
+<item id="menu_item_id_v_quality_mov_25p_300mbps_8k_420_10bit" title_id="title_v_quality_mov_25p_300mbps_8k_420_10bit" cmd_mode="setsetting" cmd_type="videoquality" cmd_value="mov_25p_300mbps_8k_420_10bit" >
+</item>
+<item id="menu_item_id_v_quality_mov_c24p_300mbps_8k_420_10bit" title_id="title_v_quality_mov_c24p_300mbps_8k_420_10bit" cmd_mode="setsetting" cmd_type="videoquality" cmd_value="mov_c24p_300mbps_8k_420_10bit" >
+</item>
+<item id="menu_item_id_v_quality_mov_24p_300mbps_8k_420_10bit" title_id="title_v_quality_mov_24p_300mbps_8k_420_10bit" cmd_mode="setsetting" cmd_type="videoquality" cmd_value="mov_24p_300mbps_8k_420_10bit" >
+</item>
+<item id="menu_item_id_v_quality_mov_60p_600mbps_c4k_422_10bit" title_id="title_v_quality_mov_60p_600mbps_c4k_422_10bit" cmd_mode="setsetting" cmd_type="videoquality" cmd_value="mov_60p_600mbps_c4k_422_10bit" >
+</item>
+<item id="menu_item_id_v_quality_mov_50p_600mbps_c4k_422_10bit" title_id="title_v_quality_mov_50p_600mbps_c4k_422_10bit" cmd_mode="setsetting" cmd_type="videoquality" cmd_value="mov_50p_600mbps_c4k_422_10bit" >
+</item>
+<item id="menu_item_id_v_quality_mov_c48p_600mbps_c4k_422_10bit" title_id="title_v_quality_mov_c48p_600mbps_c4k_422_10bit" cmd_mode="setsetting" cmd_type="videoquality" cmd_value="mov_c48p_600mbps_c4k_422_10bit" >
+</item>
+<item id="menu_item_id_v_quality_mov_48p_600mbps_c4k_422_10bit" title_id="title_v_quality_mov_48p_600mbps_c4k_422_10bit" cmd_mode="setsetting" cmd_type="videoquality" cmd_value="mov_48p_600mbps_c4k_422_10bit" >
+</item>
+<item id="menu_item_id_v_quality_mov_30p_400mbps_c4k_10bit" title_id="title_v_quality_mov_30p_400mbps_c4k_10bit" cmd_mode="setsetting" cmd_type="videoquality" cmd_value="mov_30p_400mbps_c4k_10bit" >
+</item>
+<item id="menu_item_id_v_quality_mov_25p_400mbps_c4k_10bit" title_id="title_v_quality_mov_25p_400mbps_c4k_10bit" cmd_mode="setsetting" cmd_type="videoquality" cmd_value="mov_25p_400mbps_c4k_10bit" >
+</item>
+<item id="menu_item_id_v_quality_mov_c24p_400mbps_c4k_10bit" title_id="title_v_quality_mov_c24p_400mbps_c4k_10bit" cmd_mode="setsetting" cmd_type="videoquality" cmd_value="mov_c24p_400mbps_c4k_10bit" >
+</item>
+<item id="menu_item_id_v_quality_mov_24p_400mbps_c4k_10bit" title_id="title_v_quality_mov_24p_400mbps_c4k_10bit" cmd_mode="setsetting" cmd_type="videoquality" cmd_value="mov_24p_400mbps_c4k_10bit" >
+</item>
+<item id="menu_item_id_v_quality_mov_60p_600mbps_4k_422_10bit" title_id="title_v_quality_mov_60p_600mbps_4k_422_10bit" cmd_mode="setsetting" cmd_type="videoquality" cmd_value="mov_60p_600mbps_4k_422_10bit" >
+</item>
+<item id="menu_item_id_v_quality_mov_50p_600mbps_4k_422_10bit" title_id="title_v_quality_mov_50p_600mbps_4k_422_10bit" cmd_mode="setsetting" cmd_type="videoquality" cmd_value="mov_50p_600mbps_4k_422_10bit" >
+</item>
+<item id="menu_item_id_v_quality_mov_c48p_600mbps_4k_422_10bit" title_id="title_v_quality_mov_c48p_600mbps_4k_422_10bit" cmd_mode="setsetting" cmd_type="videoquality" cmd_value="mov_c48p_600mbps_4k_422_10bit" >
+</item>
+<item id="menu_item_id_v_quality_mov_48p_600mbps_4k_422_10bit" title_id="title_v_quality_mov_48p_600mbps_4k_422_10bit" cmd_mode="setsetting" cmd_type="videoquality" cmd_value="mov_48p_600mbps_4k_422_10bit" >
+</item>
+<item id="menu_item_id_v_quality_mov_30p_400mbps_4k_10bit" title_id="title_v_quality_mov_30p_400mbps_4k_10bit" cmd_mode="setsetting" cmd_type="videoquality" cmd_value="mov_30p_400mbps_4k_10bit" >
+</item>
+<item id="menu_item_id_v_quality_mov_25p_400mbps_4k_10bit" title_id="title_v_quality_mov_25p_400mbps_4k_10bit" cmd_mode="setsetting" cmd_type="videoquality" cmd_value="mov_25p_400mbps_4k_10bit" >
+</item>
+<item id="menu_item_id_v_quality_mov_c24p_400mbps_4k_10bit" title_id="title_v_quality_mov_c24p_400mbps_4k_10bit" cmd_mode="setsetting" cmd_type="videoquality" cmd_value="mov_c24p_400mbps_4k_10bit" >
+</item>
+<item id="menu_item_id_v_quality_mov_24p_400mbps_4k_10bit" title_id="title_v_quality_mov_24p_400mbps_4k_10bit" cmd_mode="setsetting" cmd_type="videoquality" cmd_value="mov_24p_400mbps_4k_10bit" >
+</item>
+<item id="menu_item_id_v_quality_prores_60p_454mbps_422_hq_10bit" title_id="title_v_quality_prores_60p_454mbps_422_hq_10bit" cmd_mode="setsetting" cmd_type="videoquality" cmd_value="prores_60p_454mbps_422_hq_10bit" >
+</item>
+<item id="menu_item_id_v_quality_prores_50p_378mbps_422_hq_10bit" title_id="title_v_quality_prores_50p_378mbps_422_hq_10bit" cmd_mode="setsetting" cmd_type="videoquality" cmd_value="prores_50p_378mbps_422_hq_10bit" >
+</item>
+<item id="menu_item_id_v_quality_prores_30p_227mbps_422_hq_10bit" title_id="title_v_quality_prores_30p_227mbps_422_hq_10bit" cmd_mode="setsetting" cmd_type="videoquality" cmd_value="prores_30p_227mbps_422_hq_10bit" >
+</item>
+<item id="menu_item_id_v_quality_prores_25p_189mbps_422_hq_10bit" title_id="title_v_quality_prores_25p_189mbps_422_hq_10bit" cmd_mode="setsetting" cmd_type="videoquality" cmd_value="prores_25p_189mbps_422_hq_10bit" >
+</item>
+<item id="menu_item_id_v_quality_prores_c24p_182mbps_422_hq_10bit" title_id="title_v_quality_prores_c24p_182mbps_422_hq_10bit" cmd_mode="setsetting" cmd_type="videoquality" cmd_value="prores_c24p_182mbps_422_hq_10bit" >
+</item>
+<item id="menu_item_id_v_quality_prores_24p_181mbps_422_hq_10bit" title_id="title_v_quality_prores_24p_181mbps_422_hq_10bit" cmd_mode="setsetting" cmd_type="videoquality" cmd_value="prores_24p_181mbps_422_hq_10bit" >
+</item>
+<item id="menu_item_id_v_quality_mov_120p_400mbps_422_10bit" title_id="title_v_quality_mov_120p_400mbps_422_10bit" cmd_mode="setsetting" cmd_type="videoquality" cmd_value="mov_120p_400mbps_422_10bit" >
+</item>
+<item id="menu_item_id_v_quality_mov_100p_400mbps_422_10bit" title_id="title_v_quality_mov_100p_400mbps_422_10bit" cmd_mode="setsetting" cmd_type="videoquality" cmd_value="mov_100p_400mbps_422_10bit" >
+</item>
+<item id="menu_item_id_v_quality_mov_60p_200mbps_10bit" title_id="title_v_quality_mov_60p_200mbps_10bit" cmd_mode="setsetting" cmd_type="videoquality" cmd_value="mov_60p_200mbps_10bit" >
+</item>
+<item id="menu_item_id_v_quality_mov_50p_200mbps_10bit" title_id="title_v_quality_mov_50p_200mbps_10bit" cmd_mode="setsetting" cmd_type="videoquality" cmd_value="mov_50p_200mbps_10bit" >
+</item>
+<item id="menu_item_id_v_quality_mov_c48p_200mbps_422_10bit" title_id="title_v_quality_mov_c48p_200mbps_422_10bit" cmd_mode="setsetting" cmd_type="videoquality" cmd_value="mov_c48p_200mbps_422_10bit" >
+</item>
+<item id="menu_item_id_v_quality_mov_48p_200mbps_422_10bit" title_id="title_v_quality_mov_48p_200mbps_422_10bit" cmd_mode="setsetting" cmd_type="videoquality" cmd_value="mov_48p_200mbps_422_10bit" >
+</item>
+<item id="menu_item_id_v_quality_mov_30p_200mbps_10bit" title_id="title_v_quality_mov_30p_200mbps_10bit" cmd_mode="setsetting" cmd_type="videoquality" cmd_value="mov_30p_200mbps_10bit" >
+</item>
+<item id="menu_item_id_v_quality_mov_25p_200mbps_10bit" title_id="title_v_quality_mov_25p_200mbps_10bit" cmd_mode="setsetting" cmd_type="videoquality" cmd_value="mov_25p_200mbps_10bit" >
+</item>
+<item id="menu_item_id_v_quality_mov_c24p_200mbps_10bit" title_id="title_v_quality_mov_c24p_200mbps_10bit" cmd_mode="setsetting" cmd_type="videoquality" cmd_value="mov_c24p_200mbps_10bit" >
+</item>
+<item id="menu_item_id_v_quality_mov_24p_200mbps_10bit" title_id="title_v_quality_mov_24p_200mbps_10bit" cmd_mode="setsetting" cmd_type="videoquality" cmd_value="mov_24p_200mbps_10bit" >
+</item>
+<item id="menu_item_id_v_quality_mov_120p_100mbps_420_10bit" title_id="title_v_quality_mov_120p_100mbps_420_10bit" cmd_mode="setsetting" cmd_type="videoquality" cmd_value="mov_120p_100mbps_420_10bit" >
+</item>
+<item id="menu_item_id_v_quality_mov_100p_100mbps_420_10bit" title_id="title_v_quality_mov_100p_100mbps_420_10bit" cmd_mode="setsetting" cmd_type="videoquality" cmd_value="mov_100p_100mbps_420_10bit" >
+</item>
+<item id="menu_item_id_v_quality_mp4_30p_300mbps_8k_10bit" title_id="title_v_quality_mp4_30p_300mbps_8k_10bit" cmd_mode="setsetting" cmd_type="videoquality" cmd_value="mp4_30p_300mbps_8k_10bit" >
+</item>
+<item id="menu_item_id_v_quality_mp4_25p_300mbps_8k_10bit" title_id="title_v_quality_mp4_25p_300mbps_8k_10bit" cmd_mode="setsetting" cmd_type="videoquality" cmd_value="mp4_25p_300mbps_8k_10bit" >
+</item>
+<item id="menu_item_id_v_quality_mp4_24p_300mbps_8k_10bit" title_id="title_v_quality_mp4_24p_300mbps_8k_10bit" cmd_mode="setsetting" cmd_type="videoquality" cmd_value="mp4_24p_300mbps_8k_10bit" >
+</item>
+<item id="menu_item_id_v_quality_mp4_60p_100mbps_4k_10bit" title_id="title_v_quality_mp4_60p_100mbps_4k_10bit" cmd_mode="setsetting" cmd_type="videoquality" cmd_value="mp4_60p_100mbps_4k_10bit" >
+</item>
+<item id="menu_item_id_v_quality_mp4_50p_100mbps_4k_10bit" title_id="title_v_quality_mp4_50p_100mbps_4k_10bit" cmd_mode="setsetting" cmd_type="videoquality" cmd_value="mp4_50p_100mbps_4k_10bit" >
+</item>
+<item id="menu_item_id_v_quality_mp4_30p_100mbps_4k" title_id="title_v_quality_mp4_30p_100mbps_4k" cmd_mode="setsetting" cmd_type="videoquality" cmd_value="mp4_30p_100mbps_4k" >
+</item>
+<item id="menu_item_id_v_quality_mp4_25p_100mbps_4k" title_id="title_v_quality_mp4_25p_100mbps_4k" cmd_mode="setsetting" cmd_type="videoquality" cmd_value="mp4_25p_100mbps_4k" >
+</item>
+<item id="menu_item_id_v_quality_mp4_24p_100mbps_4k" title_id="title_v_quality_mp4_24p_100mbps_4k" cmd_mode="setsetting" cmd_type="videoquality" cmd_value="mp4_24p_100mbps_4k" >
+</item>
+<item id="menu_item_id_v_quality_mp4_60p_28mbps" title_id="title_v_quality_mp4_60p_28mbps" cmd_mode="setsetting" cmd_type="videoquality" cmd_value="mp4_60p_28mbps" >
+</item>
+<item id="menu_item_id_v_quality_mp4_50p_28mbps" title_id="title_v_quality_mp4_50p_28mbps" cmd_mode="setsetting" cmd_type="videoquality" cmd_value="mp4_50p_28mbps" >
+</item>
+<item id="menu_item_id_v_quality_mp4_30p_20mbps" title_id="title_v_quality_mp4_30p_20mbps" cmd_mode="setsetting" cmd_type="videoquality" cmd_value="mp4_30p_20mbps" >
+</item>
+<item id="menu_item_id_v_quality_mp4_25p_20mbps" title_id="title_v_quality_mp4_25p_20mbps" cmd_mode="setsetting" cmd_type="videoquality" cmd_value="mp4_25p_20mbps" >
+</item>
+<item id="menu_item_id_v_quality_mp4_24p_24mbps" title_id="title_v_quality_mp4_24p_24mbps" cmd_mode="setsetting" cmd_type="videoquality" cmd_value="mp4_24p_24mbps" >
+</item>
+</group>
+</item>
+
+<item id="menu_item_id_videostyle" title_id="title_videostyle" func_type="submenu" >
+<menu>
+<item id="menu_item_id_videostyle_standard" title_id="title_videostyle_standard" cmd_mode="setsetting" cmd_type="videostyle" cmd_value="standard" >
+</item>
+<item id="menu_item_id_videostyle_vivid" title_id="title_videostyle_vivid" cmd_mode="setsetting" cmd_type="videostyle" cmd_value="vivid" >
+</item>
+<item id="menu_item_id_videostyle_natural" title_id="title_videostyle_natural" cmd_mode="setsetting" cmd_type="videostyle" cmd_value="natural" >
+</item>
+<item id="menu_item_id_videostyle_bw" title_id="title_videostyle_bw" cmd_mode="setsetting" cmd_type="videostyle" cmd_value="bw" >
+</item>
+<item id="menu_item_id_videostyle_l_bw" title_id="title_videostyle_l_bw" cmd_mode="setsetting" cmd_type="videostyle" cmd_value="l_bw" >
+</item>
+</menu>
+</item>
+
+<item id="menu_item_id_lut_preview" title_id="title_lut_preview" func_type="select" >
+<group>
+<item id="menu_item_id_lut_preview_off" title_id="title_lut_preview_off" cmd_mode="setsetting" cmd_type="lut_preview" cmd_value="off" >
+</item>
+<item id="menu_item_id_lut_preview_lut1" title_id="title_lut_preview_lut1" cmd_mode="setsetting" cmd_type="lut_preview" cmd_value="lut1" >
+</item>
+<item id="menu_item_id_lut_preview_lut2" title_id="title_lut_preview_lut2" cmd_mode="setsetting" cmd_type="lut_preview" cmd_value="lut2" >
+</item>
+<item id="menu_item_id_lut_preview_lut3" title_id="title_lut_preview_lut3" cmd_mode="setsetting" cmd_type="lut_preview" cmd_value="lut3" >
+</item>
+<item id="menu_item_id_lut_preview_lut4" title_id="title_lut_preview_lut4" cmd_mode="setsetting" cmd_type="lut_preview" cmd_value="lut4" >
+</item>
+<item id="menu_item_id_lut_preview_lut5" title_id="title_lut_preview_lut5" cmd_mode="setsetting" cmd_type="lut_preview" cmd_value="lut5" >
+</item>
+</group>
+</item>
+
+<item id="menu_item_id_lut_usage" title_id="title_lut_usage" func_type="select" >
+<group>
+<item id="menu_item_id_lut_usage_evf_lcd" title_id="title_lut_usage_evf_lcd" cmd_mode="setsetting" cmd_type="lut_usage" cmd_value="evf_lcd" >
+</item>
+<item id="menu_item_id_lut_usage_hdmi" title_id="title_lut_usage_hdmi" cmd_mode="setsetting" cmd_type="lut_usage" cmd_value="hdmi" >
+</item>
+</group>
+</item>
+
+<item id="menu_item_id_perspective_control" title_id="title_perspective_control" func_type="on_off" cmd_mode="setsetting" cmd_type="lpc" cmd_value="__value__" >
+</item>
+
+<item id="menu_item_id_liveview_quality" title_id="title_liveview_quality" func_type="select" >
+<group>
+<item id="menu_item_id_liveviewsize_fine" title_id="title_liveviewsize_fine" cmd_mode="setsetting" cmd_type="liveviewsize" cmd_value="fine" >
+</item>
+<item id="menu_item_id_liveviewsize_low" title_id="title_liveviewsize_low" cmd_mode="setsetting" cmd_type="liveviewsize" cmd_value="low" >
+</item>
+</group>
+</item>
+
+</menu>
+</photosettings>
+
+
+<topbuttons>
+<menu>
+<item id="menu_item_id_aperture" title_id="title_aperture" func_type="sp_embeded_aperture" >
+</item>
+
+<item id="menu_item_id_shutter_speed" title_id="title_shutter_speed" func_type="sp_embeded_shutter_speed" >
+</item>
+
+<item id="menu_item_id_program_shift" title_id="title_program_shift" func_type="sp_embeded_program_shift" >
+</item>
+
+<item id="menu_item_id_sensitivity" title_id="title_sensitivity" func_type="sp_embeded_sensitivity" >
+<group>
+<item id="menu_item_id_sensitivity_auto" title_id="title_sensitivity_auto" cmd_mode="setsetting" cmd_type="iso" cmd_value="auto" >
+</item>
+<item id="menu_item_id_sensitivity_50" title_id="title_sensitivity_50" cmd_mode="setsetting" cmd_type="iso" cmd_value="50" >
+</item>
+<item id="menu_item_id_sensitivity_100" title_id="title_sensitivity_100" cmd_mode="setsetting" cmd_type="iso" cmd_value="100" >
+</item>
+<item id="menu_item_id_sensitivity_200" title_id="title_sensitivity_200" cmd_mode="setsetting" cmd_type="iso" cmd_value="200" >
+</item>
+<item id="menu_item_id_sensitivity_400" title_id="title_sensitivity_400" cmd_mode="setsetting" cmd_type="iso" cmd_value="400" >
+</item>
+<item id="menu_item_id_sensitivity_800" title_id="title_sensitivity_800" cmd_mode="setsetting" cmd_type="iso" cmd_value="800" >
+</item>
+<item id="menu_item_id_sensitivity_1600" title_id="title_sensitivity_1600" cmd_mode="setsetting" cmd_type="iso" cmd_value="1600" >
+</item>
+<item id="menu_item_id_sensitivity_3200" title_id="title_sensitivity_3200" cmd_mode="setsetting" cmd_type="iso" cmd_value="3200" >
+</item>
+<item id="menu_item_id_sensitivity_6400" title_id="title_sensitivity_6400" cmd_mode="setsetting" cmd_type="iso" cmd_value="6400" >
+</item>
+<item id="menu_item_id_sensitivity_12500" title_id="title_sensitivity_12500" cmd_mode="setsetting" cmd_type="iso" cmd_value="12500" >
+</item>
+<item id="menu_item_id_sensitivity_25000" title_id="title_sensitivity_25000" cmd_mode="setsetting" cmd_type="iso" cmd_value="25000" >
+</item>
+<item id="menu_item_id_sensitivity_50000" title_id="title_sensitivity_50000" cmd_mode="setsetting" cmd_type="iso" cmd_value="50000" >
+</item>
+<item id="menu_item_id_sensitivity_64000" title_id="title_sensitivity_64000" cmd_mode="setsetting" cmd_type="iso" cmd_value="64000" >
+</item>
+<item id="menu_item_id_sensitivity_80000" title_id="title_sensitivity_80000" cmd_mode="setsetting" cmd_type="iso" cmd_value="80000" >
+</item>
+<item id="menu_item_id_sensitivity_100000" title_id="title_sensitivity_100000" cmd_mode="setsetting" cmd_type="iso" cmd_value="100000" >
+</item>
+</group>
+</item>
+
+<item id="menu_item_id_exposure2" title_id="title_exposure2" func_type="sp_embeded_exposure2" >
+<group>
+<item id="menu_item_id_exposure_m3" title_id="title_exposure_m3" cmd_mode="setsetting" cmd_type="exposure" cmd_value="-3" >
+</item>
+<item id="menu_item_id_exposure_m8_3" title_id="title_exposure_m8_3" cmd_mode="setsetting" cmd_type="exposure" cmd_value="-8/3" >
+</item>
+<item id="menu_item_id_exposure_m7_3" title_id="title_exposure_m7_3" cmd_mode="setsetting" cmd_type="exposure" cmd_value="-7/3" >
+</item>
+<item id="menu_item_id_exposure_m2" title_id="title_exposure_m2" cmd_mode="setsetting" cmd_type="exposure" cmd_value="-2" >
+</item>
+<item id="menu_item_id_exposure_m5_3" title_id="title_exposure_m5_3" cmd_mode="setsetting" cmd_type="exposure" cmd_value="-5/3" >
+</item>
+<item id="menu_item_id_exposure_m4_3" title_id="title_exposure_m4_3" cmd_mode="setsetting" cmd_type="exposure" cmd_value="-4/3" >
+</item>
+<item id="menu_item_id_exposure_m1" title_id="title_exposure_m1" cmd_mode="setsetting" cmd_type="exposure" cmd_value="-1" >
+</item>
+<item id="menu_item_id_exposure_m2_3" title_id="title_exposure_m2_3" cmd_mode="setsetting" cmd_type="exposure" cmd_value="-2/3" >
+</item>
+<item id="menu_item_id_exposure_m1_3" title_id="title_exposure_m1_3" cmd_mode="setsetting" cmd_type="exposure" cmd_value="-1/3" >
+</item>
+<item id="menu_item_id_exposure_0" title_id="title_exposure_0" cmd_mode="setsetting" cmd_type="exposure" cmd_value="0" >
+</item>
+<item id="menu_item_id_exposure_p1_3" title_id="title_exposure_p1_3" cmd_mode="setsetting" cmd_type="exposure" cmd_value="1/3" >
+</item>
+<item id="menu_item_id_exposure_p2_3" title_id="title_exposure_p2_3" cmd_mode="setsetting" cmd_type="exposure" cmd_value="2/3" >
+</item>
+<item id="menu_item_id_exposure_p1" title_id="title_exposure_p1" cmd_mode="setsetting" cmd_type="exposure" cmd_value="1" >
+</item>
+<item id="menu_item_id_exposure_p4_3" title_id="title_exposure_p4_3" cmd_mode="setsetting" cmd_type="exposure" cmd_value="4/3" >
+</item>
+<item id="menu_item_id_exposure_p5_3" title_id="title_exposure_p5_3" cmd_mode="setsetting" cmd_type="exposure" cmd_value="5/3" >
+</item>
+<item id="menu_item_id_exposure_p2" title_id="title_exposure_p2" cmd_mode="setsetting" cmd_type="exposure" cmd_value="2" >
+</item>
+<item id="menu_item_id_exposure_p7_3" title_id="title_exposure_p7_3" cmd_mode="setsetting" cmd_type="exposure" cmd_value="7/3" >
+</item>
+<item id="menu_item_id_exposure_p8_3" title_id="title_exposure_p8_3" cmd_mode="setsetting" cmd_type="exposure" cmd_value="8/3" >
+</item>
+<item id="menu_item_id_exposure_p3" title_id="title_exposure_p3" cmd_mode="setsetting" cmd_type="exposure" cmd_value="3" >
+</item>
+</group>
+</item>
+
+<item id="menu_item_id_whitebalance" title_id="title_whitebalance" func_type="sp_embeded_whitebalance" >
+<group>
+<item id="menu_item_id_whitebalance_auto" title_id="title_whitebalance_auto" cmd_mode="setsetting" cmd_type="whitebalance" cmd_value="auto" >
+</item>
+<item id="menu_item_id_whitebalance_daylight" title_id="title_whitebalance_daylight" cmd_mode="setsetting" cmd_type="whitebalance" cmd_value="daylight" >
+</item>
+<item id="menu_item_id_whitebalance_cloudy" title_id="title_whitebalance_cloudy" cmd_mode="setsetting" cmd_type="whitebalance" cmd_value="cloudy" >
+</item>
+<item id="menu_item_id_whitebalance_shade" title_id="title_whitebalance_shade" cmd_mode="setsetting" cmd_type="whitebalance" cmd_value="shade" >
+</item>
+<item id="menu_item_id_whitebalance_halogen" title_id="title_whitebalance_halogen" cmd_mode="setsetting" cmd_type="whitebalance" cmd_value="halogen" >
+</item>
+<item id="menu_item_id_whitebalance_flash" title_id="title_whitebalance_flash" cmd_mode="setsetting" cmd_type="whitebalance" cmd_value="flash" >
+</item>
+<item id="menu_item_id_whitebalance_greycard" title_id="title_whitebalance_greycard" cmd_mode="setsetting" cmd_type="whitebalance" cmd_value="greycard" >
+</item>
+<item id="menu_item_id_whitebalance_color_temp" title_id="title_whitebalance_color_temp" cmd_mode="setsetting" cmd_type="whitebalance" cmd_value="color_temp" >
+</item>
+</group>
+</item>
+
+<item id="menu_item_id_digital_tri" title_id="title_digital_tri" func_type="sp_embeded_digital_tri" >
+<group>
+<item id="menu_item_id_digital_tri_28" title_id="title_digital_tri_28" cmd_mode="setsetting" cmd_type="digital_tri" cmd_value="28" >
+</item>
+<item id="menu_item_id_digital_tri_35" title_id="title_digital_tri_35" cmd_mode="setsetting" cmd_type="digital_tri" cmd_value="35" >
+</item>
+<item id="menu_item_id_digital_tri_50" title_id="title_digital_tri_50" cmd_mode="setsetting" cmd_type="digital_tri" cmd_value="50" >
+</item>
+<item id="menu_item_id_digital_tri_75" title_id="title_digital_tri_75" cmd_mode="setsetting" cmd_type="digital_tri" cmd_value="75" >
+</item>
+<item id="menu_item_id_digital_tri_90" title_id="title_digital_tri_90" cmd_mode="setsetting" cmd_type="digital_tri" cmd_value="90" >
+</item>
+</group>
+</item>
+
+<item id="menu_item_id_precmode" title_id="title_precmode" func_type="sp_embeded_precmode" >
+<group>
+<item id="menu_item_id_precmode_manual_exposure" title_id="title_precmode_manual_exposure" cmd_mode="setsetting" cmd_type="photo_rec_mode" cmd_value="manual_exposure" >
+</item>
+<item id="menu_item_id_precmode_aperture_ae" title_id="title_precmode_aperture_ae" cmd_mode="setsetting" cmd_type="photo_rec_mode" cmd_value="aperture_ae" >
+</item>
+<item id="menu_item_id_precmode_shutter_ae" title_id="title_precmode_shutter_ae" cmd_mode="setsetting" cmd_type="photo_rec_mode" cmd_value="shutter_ae" >
+</item>
+<item id="menu_item_id_precmode_program_ae" title_id="title_precmode_program_ae" cmd_mode="setsetting" cmd_type="photo_rec_mode" cmd_value="program_ae" >
+</item>
+<item id="menu_item_id_precmode_full_auto" title_id="title_precmode_full_auto" cmd_mode="setsetting" cmd_type="photo_rec_mode" cmd_value="full_auto" >
+</item>
+<item id="menu_item_id_precmode_sport" title_id="title_precmode_sport" cmd_mode="setsetting" cmd_type="photo_rec_mode" cmd_value="sport" >
+</item>
+<item id="menu_item_id_precmode_portrait" title_id="title_precmode_portrait" cmd_mode="setsetting" cmd_type="photo_rec_mode" cmd_value="portrait" >
+</item>
+<item id="menu_item_id_precmode_landscape" title_id="title_precmode_landscape" cmd_mode="setsetting" cmd_type="photo_rec_mode" cmd_value="landscape" >
+</item>
+<item id="menu_item_id_precmode_night_portrait" title_id="title_precmode_night_portrait" cmd_mode="setsetting" cmd_type="photo_rec_mode" cmd_value="night_portrait" >
+</item>
+<item id="menu_item_id_precmode_snow_beach" title_id="title_precmode_snow_beach" cmd_mode="setsetting" cmd_type="photo_rec_mode" cmd_value="snow_beach" >
+</item>
+<item id="menu_item_id_precmode_fireworks" title_id="title_precmode_fireworks" cmd_mode="setsetting" cmd_type="photo_rec_mode" cmd_value="fireworks" >
+</item>
+<item id="menu_item_id_precmode_candle_light" title_id="title_precmode_candle_light" cmd_mode="setsetting" cmd_type="photo_rec_mode" cmd_value="candle_light" >
+</item>
+<item id="menu_item_id_precmode_sunset" title_id="title_precmode_sunset" cmd_mode="setsetting" cmd_type="photo_rec_mode" cmd_value="sunset" >
+</item>
+<item id="menu_item_id_precmode_digiscoping" title_id="title_precmode_digiscoping" cmd_mode="setsetting" cmd_type="photo_rec_mode" cmd_value="digiscoping" >
+</item>
+</group>
+</item>
+
+</menu>
+</topbuttons>
+
+
+<titlelist model="LeicaQ3" version="1.0" date="20230828">
+<language code="en" default="yes" >
+<title id="title_drivemode">Drive Mode</title>
+<title id="title_drivemode_single">Single</title>
+<title id="title_drivemode_burst_s">Continuous - 2 fps / 14 bit / AF</title>
+<title id="title_drivemode_burst_m">Continuous - 4 fps / 14 bit / AF</title>
+<title id="title_drivemode_burst_mh">Continuous - 7 fps / 14 bit</title>
+<title id="title_drivemode_burst_f">Continuous - 9 fps / 12 bit</title>
+<title id="title_drivemode_burst_ss">Continuous - 15 fps / 12 bit</title>
+<title id="title_drivemode_bracketing">Exposure Bracketing</title>
+<title id="title_bracket_frames">Number of Frames</title>
+<title id="title_bracket_frames_3">3</title>
+<title id="title_bracket_frames_5">5</title>
+<title id="title_bracket_aperture">EV Steps</title>
+<title id="title_bracket_aperture_1_3">1/3 EV</title>
+<title id="title_bracket_aperture_2_3">2/3 EV</title>
+<title id="title_bracket_aperture_1">1 EV</title>
+<title id="title_bracket_aperture_4_3">1 1/3 EV</title>
+<title id="title_bracket_aperture_5_3">1 2/3 EV</title>
+<title id="title_bracket_aperture_2">2 EV</title>
+<title id="title_bracket_aperture_7_3">2 1/3 EV</title>
+<title id="title_bracket_aperture_8_3">2 2/3 EV</title>
+<title id="title_bracket_aperture_3">3 EV</title>
+<title id="title_bracket_exposure">Exposure Compensation</title>
+<title id="title_bracket_exposure_m3">-3 EV</title>
+<title id="title_bracket_exposure_m8_3">-2 2/3 EV</title>
+<title id="title_bracket_exposure_m7_3">-2 1/3 EV</title>
+<title id="title_bracket_exposure_m2">-2 EV</title>
+<title id="title_bracket_exposure_m5_3">-1 2/3 EV</title>
+<title id="title_bracket_exposure_m4_3">-1 1/3 EV</title>
+<title id="title_bracket_exposure_m1">-1 EV</title>
+<title id="title_bracket_exposure_m2_3">-2/3 EV</title>
+<title id="title_bracket_exposure_m1_3">-1/3 EV</title>
+<title id="title_bracket_exposure_0">0 EV</title>
+<title id="title_bracket_exposure_p1_3">+1/3 EV</title>
+<title id="title_bracket_exposure_p2_3">+2/3 EV</title>
+<title id="title_bracket_exposure_p1">+1 EV</title>
+<title id="title_bracket_exposure_p4_3">+1 1/3 EV</title>
+<title id="title_bracket_exposure_p5_3">+1 2/3 EV</title>
+<title id="title_bracket_exposure_p2">+2 EV</title>
+<title id="title_bracket_exposure_p7_3">+2 1/3 EV</title>
+<title id="title_bracket_exposure_p8_3">+2 2/3 EV</title>
+<title id="title_bracket_exposure_p3">+3 EV</title>
+<title id="title_bracket_auto">Automatic</title>
+<title id="title_selftimer">Self Timer</title>
+<title id="title_selftimer_off">Off</title>
+<title id="title_selftimer_2sec">Self Timer 2 s</title>
+<title id="title_selftimer_12sec">Self Timer 12 s</title>
+<title id="title_focus">Focusing</title>
+<title id="title_focusmode">Focus Mode</title>
+<title id="title_focusmode_aff">Intelligent AF</title>
+<title id="title_focusmode_afs">AFs</title>
+<title id="title_focusmode_afc">AFc</title>
+<title id="title_afmode">AF Mode</title>
+<title id="title_afmode_multi_field">Multi-Field</title>
+<title id="title_afmode_spot">Spot</title>
+<title id="title_afmode_1area">Field</title>
+<title id="title_afmode_zone">Zone</title>
+<title id="title_afmode_aftracking">Tracking</title>
+<title id="title_afmode_facedetection">Eye/Face/Body Detection</title>
+<title id="title_afmode_auto_recognize">Eye/Face/Body + Animal Detection</title>
+<title id="title_touch_af">Touch AF</title>
+<title id="title_touch_af_off">Off</title>
+<title id="title_touch_af_on">Touch AF</title>
+<title id="title_touch_af_touch_shut">Touch AF + Release</title>
+<title id="title_lightmet">Exposure Metering</title>
+<title id="title_lightmet_spot">Spot</title>
+<title id="title_lightmet_center">Center-Weighted</title>
+<title id="title_lightmet_highlight">Highlight-Weighted</title>
+<title id="title_lightmet_multi">Multi-Field</title>
+<title id="title_photoformat">Photo File Format</title>
+<title id="title_photoformat_dng">DNG</title>
+<title id="title_photoformat_jpg_dng">DNG + JPG</title>
+<title id="title_photoformat_jpg">JPG</title>
+<title id="title_dng_reso">DNG Resolution</title>
+<title id="title_dng_reso_l_dng">L-DNG (60 MP)</title>
+<title id="title_dng_reso_m_dng">M-DNG (36 MP)</title>
+<title id="title_dng_reso_s_dng">S-DNG (18 MP)</title>
+<title id="title_pictsizetype">Max. JPG-Resolution</title>
+<title id="title_pictsizetype_l_jpg">L-JPG (60-39-19-8-6 M)</title>
+<title id="title_pictsizetype_m_jpg">M-JPG (36-23-11-5-4 M)</title>
+<title id="title_pictsizetype_s_jpg">S-JPG (18-12-6-3-2 M)</title>
+<title id="title_colormode">Film Style</title>
+<title id="title_colormode_standard">Standard</title>
+<title id="title_colormode_vivid">Vivid</title>
+<title id="title_colormode_natural">Natural</title>
+<title id="title_colormode_bw">Monochrome</title>
+<title id="title_colormode_l_bw">Monochrome High Contrast</title>
+<title id="title_lut">Leica Looks</title>
+<title id="title_lut_1">Leica Look 1</title>
+<title id="title_lut_2">Leica Look 2</title>
+<title id="title_lut_3">Leica Look 3</title>
+<title id="title_lut_4">Leica Look 4</title>
+<title id="title_lut_5">Leica Look 5</title>
+<title id="title_lut_6">Leica Look 6</title>
+<title id="title_photoaspect">Photo Aspect Ratio</title>
+<title id="title_photoaspect_3:2">3:2</title>
+<title id="title_photoaspect_4:3">4:3</title>
+<title id="title_photoaspect_1:1">1:1</title>
+<title id="title_photoaspect_16:9">16:9</title>
+<title id="title_videoformat">Video File Format</title>
+<title id="title_videoformat_mov">MOV</title>
+<title id="title_videoformat_mp4">MP4</title>
+<title id="title_v_quality">Video Resolution</title>
+<title id="title_v_quality_mov_30p_300mbps_c8k_420_10bit">29.97fps/L-GOP/300Mbps/4:2:0-10bit SD/4:2:2-10bit C4K HDMI</title>
+<title id="title_v_quality_mov_25p_300mbps_c8k_420_10bit">25fps/L-GOP/300Mbps/4:2:0-10bit SD/4:2:2-10bit C4K HDMI</title>
+<title id="title_v_quality_mov_c24p_300mbps_c8k_420_10bit">24fps/L-GOP/300Mbps/4:2:0-10bit SD/4:2:2-10bit C4K HDMI</title>
+<title id="title_v_quality_mov_24p_300mbps_c8k_420_10bit">23.98fps/L-GOP/300Mbps/4:2:0-10bit SD/4:2:2-10bit C4K HDMI</title>
+<title id="title_v_quality_mov_30p_300mbps_8k_420_10bit">29.97fps/L-GOP/300Mbps/4:2:0-10bit SD/4:2:2-10bit 4K HDMI</title>
+<title id="title_v_quality_mov_25p_300mbps_8k_420_10bit">25fps/L-GOP/300Mbps/4:2:0-10bit SD/4:2:2-10bit 4K HDMI</title>
+<title id="title_v_quality_mov_c24p_300mbps_8k_420_10bit">24fps/L-GOP/300Mbps/4:2:0-10bit SD/4:2:2-10bit 4K HDMI</title>
+<title id="title_v_quality_mov_24p_300mbps_8k_420_10bit">23.98fps/L-GOP/300Mbps/4:2:0-10bit SD/4:2:2-10bit 4K HDMI</title>
+<title id="title_v_quality_mov_60p_600mbps_c4k_422_10bit">59.94fps/All-I/600Mbps/4:2:2-10bit SD &amp;amp; HDMI</title>
+<title id="title_v_quality_mov_50p_600mbps_c4k_422_10bit">50fps/All-I/600Mbps/4:2:2-10bit SD &amp;amp; HDMI</title>
+<title id="title_v_quality_mov_c48p_600mbps_c4k_422_10bit">48fps/All-I/600Mbps/4:2:2-10bit SD/4:2:2-10bit 24fps HDMI</title>
+<title id="title_v_quality_mov_48p_600mbps_c4k_422_10bit">47.95fps/All-I/600Mbps/4:2:2-10bit SD/4:2:2-10bit 23.98fps HDMI</title>
+<title id="title_v_quality_mov_30p_400mbps_c4k_10bit">29.97fps/All-I/400Mbps/4:2:2-10bit SD &amp;amp; HDMI</title>
+<title id="title_v_quality_mov_25p_400mbps_c4k_10bit">25fps/All-I/400Mbps/4:2:2-10bit SD &amp;amp; HDMI</title>
+<title id="title_v_quality_mov_c24p_400mbps_c4k_10bit">24fps/All-I/400Mbps/4:2:2-10bit SD &amp;amp; HDMI</title>
+<title id="title_v_quality_mov_24p_400mbps_c4k_10bit">23.98fps/All-I/400Mbps/4:2:2-10bit SD &amp;amp; HDMI</title>
+<title id="title_v_quality_mov_60p_600mbps_4k_422_10bit">59.94fps/All-I/600Mbps/4:2:2-10bit SD &amp;amp; HDMI</title>
+<title id="title_v_quality_mov_50p_600mbps_4k_422_10bit">50fps/All-I/600Mbps/4:2:2-10bit SD &amp;amp; HDMI</title>
+<title id="title_v_quality_mov_c48p_600mbps_4k_422_10bit">48fps/All-I/600Mbps/4:2:2-10bit SD/4:2:2-10bit 24fps HDMI</title>
+<title id="title_v_quality_mov_48p_600mbps_4k_422_10bit">47.95fps/All-I/600Mbps/4:2:2-10bit SD/4:2:2-10bit 23.98fps HDMI</title>
+<title id="title_v_quality_mov_30p_400mbps_4k_10bit">29.97fps/All-I/400Mbps/4:2:2-10bit SD &amp;amp; HDMI</title>
+<title id="title_v_quality_mov_25p_400mbps_4k_10bit">25fps/All-I/400Mbps/4:2:2-10bit SD &amp;amp; HDMI</title>
+<title id="title_v_quality_mov_c24p_400mbps_4k_10bit">24fps/All-I/400Mbps/4:2:2-10bit SD &amp;amp; HDMI</title>
+<title id="title_v_quality_mov_24p_400mbps_4k_10bit">23.98fps/All-I/400Mbps/4:2:2-10bit SD &amp;amp; HDMI</title>
+<title id="title_v_quality_prores_60p_454mbps_422_hq_10bit">59.94fps/454Mbps/422HQ SD &amp;amp; HDMI</title>
+<title id="title_v_quality_prores_50p_378mbps_422_hq_10bit">50fps/378Mbps/422HQ SD &amp;amp; HDMI</title>
+<title id="title_v_quality_prores_30p_227mbps_422_hq_10bit">29.97fps/227Mbps/422HQ SD &amp;amp; HDMI</title>
+<title id="title_v_quality_prores_25p_189mbps_422_hq_10bit">25fps/189Mbps/422HQ SD &amp;amp; HDMI</title>
+<title id="title_v_quality_prores_c24p_182mbps_422_hq_10bit">24fps/182Mbps/422HQ SD &amp;amp; HDMI</title>
+<title id="title_v_quality_prores_24p_181mbps_422_hq_10bit">23.98fps/181Mbps/422HQ SD &amp;amp; HDMI</title>
+<title id="title_v_quality_mov_120p_400mbps_422_10bit">119.88fps/All-I/400Mbps/4:2:2-10bit SD &amp;amp; HDMI</title>
+<title id="title_v_quality_mov_100p_400mbps_422_10bit">100fps/All-I/400Mbps/4:2:2-10bit SD &amp;amp; HDMI</title>
+<title id="title_v_quality_mov_60p_200mbps_10bit">59.94fps/All-I/200Mbps/4:2:2-10bit SD &amp;amp; HDMI</title>
+<title id="title_v_quality_mov_50p_200mbps_10bit">50fps/All-I/200Mbps/4:2:2-10bit SD &amp;amp; HDMI</title>
+<title id="title_v_quality_mov_c48p_200mbps_422_10bit">48fps/All-I/200Mbps/4:2:2-10bit SD &amp;amp; HDMI</title>
+<title id="title_v_quality_mov_48p_200mbps_422_10bit">47.95fps/All-I/200Mbps/4:2:2-10bit SD &amp;amp; HDMI</title>
+<title id="title_v_quality_mov_30p_200mbps_10bit">29.97fps/All-I/200Mbps/4:2:2-10bit SD &amp;amp; HDMI</title>
+<title id="title_v_quality_mov_25p_200mbps_10bit">25fps/All-I/200Mbps/4:2:2-10bit SD &amp;amp; HDMI</title>
+<title id="title_v_quality_mov_c24p_200mbps_10bit">24fps/All-I/200Mbps/4:2:2-10bit SD &amp;amp; HDMI</title>
+<title id="title_v_quality_mov_24p_200mbps_10bit">23.98fps/All-I/200Mbps/4:2:2-10bit SD &amp;amp; HDMI</title>
+<title id="title_v_quality_mov_120p_100mbps_420_10bit">119.88fps/L-GOP/100Mbps/4:2:0-10bit SD &amp;amp; HDMI</title>
+<title id="title_v_quality_mov_100p_100mbps_420_10bit">100fps/L-GOP/100Mbps/4:2:0-10bit SD &amp;amp; HDMI</title>
+<title id="title_v_quality_mp4_30p_300mbps_8k_10bit">29.97fps/L-GOP/300Mbps/4:2:0-10bit SD/4:2:2-10bit 4K HDMI</title>
+<title id="title_v_quality_mp4_25p_300mbps_8k_10bit">25fps/L-GOP/300Mbps/4:2:0-10bit SD/4:2:2-10bit 4K HDMI</title>
+<title id="title_v_quality_mp4_24p_300mbps_8k_10bit">23.98fps/L-GOP/300Mbps/4:2:0-10bit SD/4:2:2-10bit 4K HDMI</title>
+<title id="title_v_quality_mp4_60p_100mbps_4k_10bit">59.94fps/L-GOP/100Mbps/4:2:0-10bit SD &amp;amp; HDMI/H.265 </title>
+<title id="title_v_quality_mp4_50p_100mbps_4k_10bit">50fps/L-GOP/100Mbps/4:2:0-10bit SD &amp;amp; HDMI/H.265 </title>
+<title id="title_v_quality_mp4_30p_100mbps_4k">29.97fps/L-GOP/100Mbps/4:2:0-8bit SD &amp;amp; HDMI/H.264</title>
+<title id="title_v_quality_mp4_25p_100mbps_4k">25fps/L-GOP/100Mbps/4:2:0-8bit SD &amp;amp; HDMI/H.264</title>
+<title id="title_v_quality_mp4_24p_100mbps_4k">23.98fps/L-GOP/100Mbps/4:2:0-8bit SD &amp;amp; HDMI/H.264</title>
+<title id="title_v_quality_mp4_60p_28mbps">59.94fps/L-GOP/28Mbps/4:2:0-8bit SD &amp;amp; HDMI</title>
+<title id="title_v_quality_mp4_50p_28mbps">50fps/L-GOP/28Mbps/4:2:0-8bit SD &amp;amp; HDMI</title>
+<title id="title_v_quality_mp4_30p_20mbps">29.97fps/L-GOP/20Mbps/4:2:0-8bit SD &amp;amp; HDMI</title>
+<title id="title_v_quality_mp4_25p_20mbps">25fps/L-GOP/20Mbps/4:2:0-8bit SD &amp;amp; HDMI</title>
+<title id="title_v_quality_mp4_24p_24mbps">23.98fps/L-GOP/20Mbps/4:2:0-8bit SD &amp;amp; HDMI</title>
+<title id="title_videostyle">Video Style</title>
+<title id="title_videostyle_standard">Standard</title>
+<title id="title_videostyle_vivid">Vivid</title>
+<title id="title_videostyle_natural">Natural</title>
+<title id="title_videostyle_bw">Monochrome</title>
+<title id="title_videostyle_l_bw">Monochrome High Contrast</title>
+<title id="title_lut_preview">LUT Profile</title>
+<title id="title_lut_preview_off">Off</title>
+<title id="title_lut_preview_lut1">Natural</title>
+<title id="title_lut_preview_lut2">Classic</title>
+<title id="title_lut_preview_lut3">LUT 1</title>
+<title id="title_lut_preview_lut4">LUT 2</title>
+<title id="title_lut_preview_lut5">LUT 3</title>
+<title id="title_lut_usage">Output</title>
+<title id="title_lut_usage_evf_lcd">EVF-LCD</title>
+<title id="title_lut_usage_hdmi">HDMI</title>
+<title id="title_perspective_control">Perspective Control</title>
+<title id="title_liveview_quality">Liveview Quality</title>
+<title id="title_liveviewsize_fine">FINE</title>
+<title id="title_liveviewsize_low">LOW</title>
+<title id="title_aperture">Aperture</title>
+<title id="title_shutter_speed">Shutter Speed</title>
+<title id="title_program_shift">Programm Shift</title>
+<title id="title_sensitivity">ISO</title>
+<title id="title_sensitivity_auto">Auto ISO</title>
+<title id="title_sensitivity_50">ISO 50</title>
+<title id="title_sensitivity_100">ISO 100</title>
+<title id="title_sensitivity_200">ISO 200</title>
+<title id="title_sensitivity_400">ISO 400</title>
+<title id="title_sensitivity_800">ISO 800</title>
+<title id="title_sensitivity_1600">ISO 1600</title>
+<title id="title_sensitivity_3200">ISO 3200</title>
+<title id="title_sensitivity_6400">ISO 6400</title>
+<title id="title_sensitivity_12500">ISO 12500</title>
+<title id="title_sensitivity_25000">ISO 25000</title>
+<title id="title_sensitivity_50000">ISO 50000</title>
+<title id="title_sensitivity_64000">ISO 64000</title>
+<title id="title_sensitivity_80000">ISO 80000</title>
+<title id="title_sensitivity_100000">ISO 100000</title>
+<title id="title_exposure2">Exposure Compensation</title>
+<title id="title_exposure_m3">-3 EV</title>
+<title id="title_exposure_m8_3">-2 2/3 EV</title>
+<title id="title_exposure_m7_3">-2 1/3 EV</title>
+<title id="title_exposure_m2">-2 EV</title>
+<title id="title_exposure_m5_3">-1 2/3 EV</title>
+<title id="title_exposure_m4_3">-1 1/3 EV</title>
+<title id="title_exposure_m1">-1 EV</title>
+<title id="title_exposure_m2_3">-2/3 EV</title>
+<title id="title_exposure_m1_3">-1/3 EV</title>
+<title id="title_exposure_0">0 EV</title>
+<title id="title_exposure_p1_3">+1/3 EV</title>
+<title id="title_exposure_p2_3">+2/3 EV</title>
+<title id="title_exposure_p1">+1 EV</title>
+<title id="title_exposure_p4_3">+1 1/3 EV</title>
+<title id="title_exposure_p5_3">+1 2/3 EV</title>
+<title id="title_exposure_p2">+2 EV</title>
+<title id="title_exposure_p7_3">+2 1/3 EV</title>
+<title id="title_exposure_p8_3">+2 2/3 EV</title>
+<title id="title_exposure_p3">+3 EV</title>
+<title id="title_whitebalance">White Balance</title>
+<title id="title_whitebalance_auto">Auto</title>
+<title id="title_whitebalance_daylight">Daylight</title>
+<title id="title_whitebalance_cloudy">Cloudy</title>
+<title id="title_whitebalance_shade">Shadow</title>
+<title id="title_whitebalance_halogen">Tungsten</title>
+<title id="title_whitebalance_flash">Flash</title>
+<title id="title_whitebalance_greycard">Gray card</title>
+<title id="title_whitebalance_color_temp">Color Temperature</title>
+<title id="title_digital_tri">Digital Zoom</title>
+<title id="title_digital_tri_28">28 mm</title>
+<title id="title_digital_tri_35">35 mm</title>
+<title id="title_digital_tri_50">50 mm</title>
+<title id="title_digital_tri_75">75 mm</title>
+<title id="title_digital_tri_90">90 mm</title>
+<title id="title_precmode">Scene Mode</title>
+<title id="title_precmode_manual_exposure">M</title>
+<title id="title_precmode_aperture_ae">A</title>
+<title id="title_precmode_shutter_ae">S</title>
+<title id="title_precmode_program_ae">P</title>
+<title id="title_precmode_full_auto">AUTO</title>
+<title id="title_precmode_sport">Sports</title>
+<title id="title_precmode_portrait">Portrait</title>
+<title id="title_precmode_landscape">Landscape</title>
+<title id="title_precmode_night_portrait">Night Portrait</title>
+<title id="title_precmode_snow_beach">Snow / Beach</title>
+<title id="title_precmode_fireworks">Fireworks</title>
+<title id="title_precmode_candle_light">Candle Light</title>
+<title id="title_precmode_sunset">Sunset</title>
+<title id="title_precmode_digiscoping">Digiscoping</title>
+</language>
+
+<language code="ja" >
+<title id="title_drivemode">ドライブモード</title>
+<title id="title_drivemode_single">1コマ</title>
+<title id="title_drivemode_burst_s">コンティニュアス - 2 fps / 14 bit / AF</title>
+<title id="title_drivemode_burst_m">コンティニュアス - 4 fps / 14 bit / AF</title>
+<title id="title_drivemode_burst_mh">コンティニュアス - 7 fps / 14 bit</title>
+<title id="title_drivemode_burst_f">コンティニュアス - 9 fps / 12 bit</title>
+<title id="title_drivemode_burst_ss">コンティニュアス - 15 fps / 12 bit</title>
+<title id="title_drivemode_bracketing">オートブラケット</title>
+<title id="title_bracket_frames">コマ数</title>
+<title id="title_bracket_aperture">EVステップ</title>
+<title id="title_bracket_exposure">露出補正</title>
+<title id="title_bracket_auto">オート</title>
+<title id="title_selftimer">セルフタイマー</title>
+<title id="title_selftimer_off">オフ</title>
+<title id="title_selftimer_2sec">セルフタイマー 2秒</title>
+<title id="title_selftimer_12sec">セルフタイマー 12秒</title>
+<title id="title_focus">フォーカス</title>
+<title id="title_focusmode">フォーカスモード</title>
+<title id="title_focusmode_aff">インテリジェントAF</title>
+<title id="title_afmode">AFモード</title>
+<title id="title_afmode_multi_field">多点</title>
+<title id="title_afmode_spot">スポット</title>
+<title id="title_afmode_1area">フレーム</title>
+<title id="title_afmode_zone">ゾーン</title>
+<title id="title_afmode_aftracking">トラッキング</title>
+<title id="title_afmode_facedetection">人認識</title>
+<title id="title_afmode_auto_recognize">人・動物認識</title>
+<title id="title_touch_af">タッチAF</title>
+<title id="title_touch_af_off">オフ</title>
+<title id="title_touch_af_on">タッチAF</title>
+<title id="title_touch_af_touch_shut">タッチAF＋レリーズ</title>
+<title id="title_lightmet">測光方式</title>
+<title id="title_lightmet_spot">スポット</title>
+<title id="title_lightmet_center">中央重点</title>
+<title id="title_lightmet_highlight">ハイライト重点</title>
+<title id="title_lightmet_multi">多点</title>
+<title id="title_photoformat">静止画記録形式</title>
+<title id="title_dng_reso">DNG記録画素数</title>
+<title id="title_pictsizetype">最大JPG記録画素数</title>
+<title id="title_colormode">フィルムモード</title>
+<title id="title_colormode_standard">標準</title>
+<title id="title_colormode_vivid">ビビッド</title>
+<title id="title_colormode_natural">ナチュラル</title>
+<title id="title_colormode_bw">モノクロ</title>
+<title id="title_colormode_l_bw">モノクロHC</title>
+<title id="title_photoaspect">静止画アスペクト比</title>
+<title id="title_videoformat">動画記録形式</title>
+<title id="title_v_quality">動画画質</title>
+<title id="title_videostyle">動画モード</title>
+<title id="title_videostyle_standard">標準</title>
+<title id="title_videostyle_vivid">ビビッド</title>
+<title id="title_videostyle_natural">ナチュラル</title>
+<title id="title_videostyle_bw">モノクロ</title>
+<title id="title_videostyle_l_bw">モノクロHC</title>
+<title id="title_lut_preview">LUTプロファイル</title>
+<title id="title_lut_preview_off">オフ</title>
+<title id="title_lut_preview_lut1">ナチュラル</title>
+<title id="title_lut_preview_lut2">クラシック</title>
+<title id="title_lut_usage">出力</title>
+<title id="title_perspective_control">遠近補正</title>
+<title id="title_aperture">絞り</title>
+<title id="title_shutter_speed">シャッタースピード</title>
+<title id="title_program_shift">プログラムシフト</title>
+<title id="title_sensitivity_auto">オートISO</title>
+<title id="title_exposure2">露出補正</title>
+<title id="title_whitebalance">ホワイトバランス</title>
+<title id="title_whitebalance_auto">オート</title>
+<title id="title_whitebalance_daylight">晴天</title>
+<title id="title_whitebalance_cloudy">くもり</title>
+<title id="title_whitebalance_shade">日かげ（晴天時）</title>
+<title id="title_whitebalance_halogen">白熱灯</title>
+<title id="title_whitebalance_flash">フラッシュ</title>
+<title id="title_whitebalance_greycard">グレーカード</title>
+<title id="title_whitebalance_color_temp">色温度</title>
+<title id="title_digital_tri">デジタルズーム</title>
+<title id="title_precmode">撮影モード（シーン）</title>
+<title id="title_precmode_sport">スポーツ</title>
+<title id="title_precmode_portrait">人物</title>
+<title id="title_precmode_landscape">風景</title>
+<title id="title_precmode_night_portrait">夜景&amp;人物</title>
+<title id="title_precmode_snow_beach">雪景色/ビーチ</title>
+<title id="title_precmode_fireworks">花火</title>
+<title id="title_precmode_candle_light">キャンドル</title>
+<title id="title_precmode_sunset">夕焼け</title>
+<title id="title_precmode_digiscoping">デジスコーピング</title>
+</language>
+
+<language code="de" >
+<title id="title_drivemode">Bildfolge</title>
+<title id="title_drivemode_single">Einzeln</title>
+<title id="title_drivemode_burst_s">Serie - 2 B/s, 14 bit, AF</title>
+<title id="title_drivemode_burst_m">Serie - 4 B/s, 14 bit, AF</title>
+<title id="title_drivemode_burst_mh">Serie - 7 B/s, 14 bit</title>
+<title id="title_drivemode_burst_f">Serie - 9 B/s, 12 bit</title>
+<title id="title_drivemode_burst_ss">Serie - 15 B/s, 12 bit</title>
+<title id="title_drivemode_bracketing">Belichtungsreihe</title>
+<title id="title_bracket_frames">Aufnahmezahl</title>
+<title id="title_bracket_aperture">EV-Schritte</title>
+<title id="title_bracket_exposure">Belichtungskorrektur</title>
+<title id="title_bracket_auto">Automatisch</title>
+<title id="title_selftimer">Selbstauslöser</title>
+<title id="title_selftimer_off">Aus</title>
+<title id="title_selftimer_2sec">Selbstauslöser 2 s</title>
+<title id="title_selftimer_12sec">Selbstauslöser 12 s</title>
+<title id="title_focus">Fokussierung</title>
+<title id="title_focusmode">Fokusmodus</title>
+<title id="title_focusmode_aff">Intelligenter AF</title>
+<title id="title_afmode">AF-Modus</title>
+<title id="title_afmode_multi_field">Mehrfeld</title>
+<title id="title_afmode_1area">Feld</title>
+<title id="title_afmode_aftracking">Verfolgung</title>
+<title id="title_afmode_facedetection">Personenerkennung</title>
+<title id="title_afmode_auto_recognize">Personen- und Tiererkennung</title>
+<title id="title_touch_af">Touch-AF</title>
+<title id="title_touch_af_off">Aus</title>
+<title id="title_touch_af_on">Touch-AF</title>
+<title id="title_touch_af_touch_shut">Touch-AF + Auslösen</title>
+<title id="title_lightmet">Belichtungsmessung</title>
+<title id="title_lightmet_center">Mittenbetont</title>
+<title id="title_lightmet_highlight">Helle Bereiche betont</title>
+<title id="title_lightmet_multi">Mehrfeld</title>
+<title id="title_photoformat">Dateiformat Foto</title>
+<title id="title_dng_reso">DNG-Auflösung</title>
+<title id="title_pictsizetype">Max. JPG-Auflösung</title>
+<title id="title_colormode">Film Look</title>
+<title id="title_colormode_vivid">Lebendig</title>
+<title id="title_colormode_natural">Natürlich</title>
+<title id="title_colormode_bw">Monochrom</title>
+<title id="title_colormode_l_bw">Monochrom hoher Kontrast</title>
+<title id="title_photoaspect">Seitenverhältnis Foto</title>
+<title id="title_videoformat">Video-Dateiformat</title>
+<title id="title_v_quality">Video-Auflösung</title>
+<title id="title_v_quality_mov_30p_300mbps_c8k_420_10bit">29.97B/s/L-GOP/300Mbps/4:2:0-10bit SD/4:2:2-10bit C4K HDMI</title>
+<title id="title_v_quality_mov_25p_300mbps_c8k_420_10bit">25B/s/L-GOP/300Mbps/4:2:0-10bit SD/4:2:2-10bit C4K HDMI</title>
+<title id="title_v_quality_mov_c24p_300mbps_c8k_420_10bit">24B/s/L-GOP/300Mbps/4:2:0-10bit SD/4:2:2-10bit C4K HDMI</title>
+<title id="title_v_quality_mov_24p_300mbps_c8k_420_10bit">23.98B/s/L-GOP/300Mbps/4:2:0-10bit SD/4:2:2-10bit C4K HDMI</title>
+<title id="title_v_quality_mov_30p_300mbps_8k_420_10bit">29.97B/s/L-GOP/300Mbps/4:2:0-10bit SD/4:2:2-10bit 4K HDMI</title>
+<title id="title_v_quality_mov_25p_300mbps_8k_420_10bit">25B/s/L-GOP/300Mbps/4:2:0-10bit SD/4:2:2-10bit 4K HDMI</title>
+<title id="title_v_quality_mov_c24p_300mbps_8k_420_10bit">24B/s/L-GOP/300Mbps/4:2:0-10bit SD/4:2:2-10bit 4K HDMI</title>
+<title id="title_v_quality_mov_24p_300mbps_8k_420_10bit">23.98B/s/L-GOP/300Mbps/4:2:0-10bit SD/4:2:2-10bit 4K HDMI</title>
+<title id="title_v_quality_mov_60p_600mbps_c4k_422_10bit">59.94B/s/All-I/600Mbps/4:2:2-10bit SD &amp; HDMI</title>
+<title id="title_v_quality_mov_50p_600mbps_c4k_422_10bit">50B/s/All-I/600Mbps/4:2:2-10bit SD &amp; HDMI</title>
+<title id="title_v_quality_mov_c48p_600mbps_c4k_422_10bit">48B/s/All-I/600Mbps/4:2:2-10bit SD/4:2:2-10bit 24fps HDMI</title>
+<title id="title_v_quality_mov_48p_600mbps_c4k_422_10bit">47.95B/s/All-I/600Mbps/4:2:2-10bit SD/4:2:2-10bit 23.98fps HDMI</title>
+<title id="title_v_quality_mov_30p_400mbps_c4k_10bit">29.97B/s/All-I/400Mbps/4:2:2-10bit SD &amp; HDMI</title>
+<title id="title_v_quality_mov_25p_400mbps_c4k_10bit">25B/s/All-I/400Mbps/4:2:2-10bit SD &amp; HDMI</title>
+<title id="title_v_quality_mov_c24p_400mbps_c4k_10bit">24B/s/All-I/400Mbps/4:2:2-10bit SD &amp; HDMI</title>
+<title id="title_v_quality_mov_24p_400mbps_c4k_10bit">23.98B/s/All-I/400Mbps/4:2:2-10bit SD &amp; HDMI</title>
+<title id="title_v_quality_mov_60p_600mbps_4k_422_10bit">59.94B/s/All-I/600Mbps/4:2:2-10bit SD &amp; HDMI</title>
+<title id="title_v_quality_mov_50p_600mbps_4k_422_10bit">50B/s/All-I/600Mbps/4:2:2-10bit SD &amp; HDMI</title>
+<title id="title_v_quality_mov_c48p_600mbps_4k_422_10bit">48B/s/All-I/600Mbps/4:2:2-10bit SD/4:2:2-10bit 24fps HDMI</title>
+<title id="title_v_quality_mov_48p_600mbps_4k_422_10bit">47.95B/s/All-I/600Mbps/4:2:2-10bit SD/4:2:2-10bit 23.98fps HDMI</title>
+<title id="title_v_quality_mov_30p_400mbps_4k_10bit">29.97B/s/All-I/400Mbps/4:2:2-10bit SD &amp; HDMI</title>
+<title id="title_v_quality_mov_25p_400mbps_4k_10bit">25B/s/All-I/400Mbps/4:2:2-10bit SD &amp; HDMI</title>
+<title id="title_v_quality_mov_c24p_400mbps_4k_10bit">24B/s/All-I/400Mbps/4:2:2-10bit SD &amp; HDMI</title>
+<title id="title_v_quality_mov_24p_400mbps_4k_10bit">23.98B/s/All-I/400Mbps/4:2:2-10bit SD &amp; HDMI</title>
+<title id="title_v_quality_prores_60p_454mbps_422_hq_10bit">59.94B/s/454Mbps/422HQ SD &amp; HDMI</title>
+<title id="title_v_quality_prores_50p_378mbps_422_hq_10bit">50B/s/378Mbps/422HQ SD &amp; HDMI</title>
+<title id="title_v_quality_prores_30p_227mbps_422_hq_10bit">29.97B/s/227Mbps/422HQ SD &amp; HDMI</title>
+<title id="title_v_quality_prores_25p_189mbps_422_hq_10bit">25B/s/189Mbps/422HQ SD &amp; HDMI</title>
+<title id="title_v_quality_prores_c24p_182mbps_422_hq_10bit">24B/s/182Mbps/422HQ SD &amp; HDMI</title>
+<title id="title_v_quality_prores_24p_181mbps_422_hq_10bit">23.98B/s/181Mbps/422HQ SD &amp; HDMI</title>
+<title id="title_v_quality_mov_120p_400mbps_422_10bit">119.88B/s/All-I/400Mbps/4:2:2-10bit SD &amp; HDMI</title>
+<title id="title_v_quality_mov_100p_400mbps_422_10bit">100B/s/All-I/400Mbps/4:2:2-10bit SD &amp; HDMI</title>
+<title id="title_v_quality_mov_60p_200mbps_10bit">59.94B/s/All-I/200Mbps/4:2:2-10bit SD &amp; HDMI</title>
+<title id="title_v_quality_mov_50p_200mbps_10bit">50B/s/All-I/200Mbps/4:2:2-10bit SD &amp; HDMI</title>
+<title id="title_v_quality_mov_c48p_200mbps_422_10bit">48B/s/All-I/200Mbps/4:2:2-10bit SD &amp; HDMI</title>
+<title id="title_v_quality_mov_48p_200mbps_422_10bit">47.95B/s/All-I/200Mbps/4:2:2-10bit SD &amp; HDMI</title>
+<title id="title_v_quality_mov_30p_200mbps_10bit">29.97B/s/All-I/200Mbps/4:2:2-10bit SD &amp; HDMI</title>
+<title id="title_v_quality_mov_25p_200mbps_10bit">25B/s/All-I/200Mbps/4:2:2-10bit SD &amp; HDMI</title>
+<title id="title_v_quality_mov_c24p_200mbps_10bit">24B/s/All-I/200Mbps/4:2:2-10bit SD &amp; HDMI</title>
+<title id="title_v_quality_mov_24p_200mbps_10bit">23.98B/s/All-I/200Mbps/4:2:2-10bit SD &amp; HDMI</title>
+<title id="title_v_quality_mov_120p_100mbps_420_10bit">119.88B/s/L-GOP/100Mbps/4:2:0-10bit SD &amp; HDMI</title>
+<title id="title_v_quality_mov_100p_100mbps_420_10bit">100B/s/L-GOP/100Mbps/4:2:0-10bit SD &amp; HDMI</title>
+<title id="title_v_quality_mp4_30p_300mbps_8k_10bit">29.97B/s/L-GOP/300Mbps/4:2:0-10bit SD/4:2:2-10bit 4K HDMI</title>
+<title id="title_v_quality_mp4_25p_300mbps_8k_10bit">25B/s/L-GOP/300Mbps/4:2:0-10bit SD/4:2:2-10bit 4K HDMI</title>
+<title id="title_v_quality_mp4_24p_300mbps_8k_10bit">23.98B/s/L-GOP/300Mbps/4:2:0-10bit SD/4:2:2-10bit 4K HDMI</title>
+<title id="title_v_quality_mp4_60p_100mbps_4k_10bit">59.94B/s/L-GOP/100Mbps/4:2:0-10bit SD &amp; HDMI/H.265 </title>
+<title id="title_v_quality_mp4_50p_100mbps_4k_10bit">50B/s/L-GOP/100Mbps/4:2:0-10bit SD &amp; HDMI/H.265 </title>
+<title id="title_v_quality_mp4_30p_100mbps_4k">29.97B/s/L-GOP/100Mbps/4:2:0-8bit SD &amp; HDMI/H.264</title>
+<title id="title_v_quality_mp4_25p_100mbps_4k">25B/s/L-GOP/100Mbps/4:2:0-8bit SD &amp; HDMI/H.264</title>
+<title id="title_v_quality_mp4_24p_100mbps_4k">23.98B/s/L-GOP/100Mbps/4:2:0-8bit SD &amp; HDMI/H.264</title>
+<title id="title_v_quality_mp4_60p_28mbps">59.94B/s/L-GOP/28Mbps/4:2:0-8bit SD &amp; HDMI</title>
+<title id="title_v_quality_mp4_50p_28mbps">50B/s/L-GOP/28Mbps/4:2:0-8bit SD &amp; HDMI</title>
+<title id="title_v_quality_mp4_30p_20mbps">29.97B/s/L-GOP/20Mbps/4:2:0-8bit SD &amp; HDMI</title>
+<title id="title_v_quality_mp4_25p_20mbps">25B/s/L-GOP/20Mbps/4:2:0-8bit SD &amp; HDMI</title>
+<title id="title_v_quality_mp4_24p_24mbps">23.98B/s/L-GOP/20Mbps/4:2:0-8bit SD &amp; HDMI</title>
+<title id="title_videostyle">Video Look</title>
+<title id="title_videostyle_vivid">Lebendig</title>
+<title id="title_videostyle_natural">Natürlich</title>
+<title id="title_videostyle_bw">Monochrom</title>
+<title id="title_videostyle_l_bw">Monochrom hoher Kontrast</title>
+<title id="title_lut_preview">LUT-Profil</title>
+<title id="title_lut_preview_off">Aus</title>
+<title id="title_lut_preview_lut1">Natürlich</title>
+<title id="title_lut_preview_lut2">Klassisch</title>
+<title id="title_lut_usage">Ausgabe</title>
+<title id="title_perspective_control">Perspektivkorrektur</title>
+<title id="title_aperture">Blende</title>
+<title id="title_shutter_speed">Verschlusszeit</title>
+<title id="title_program_shift">Programm-Shift</title>
+<title id="title_exposure2">Belichtungskorrektur</title>
+<title id="title_whitebalance">Weißabgleich</title>
+<title id="title_whitebalance_daylight">Tageslicht</title>
+<title id="title_whitebalance_cloudy">Wolken</title>
+<title id="title_whitebalance_shade">Schatten</title>
+<title id="title_whitebalance_halogen">Kunstlicht</title>
+<title id="title_whitebalance_flash">Blitz</title>
+<title id="title_whitebalance_greycard">Graukarte</title>
+<title id="title_whitebalance_color_temp">Farbtemperatur</title>
+<title id="title_digital_tri">Digitalzoom</title>
+<title id="title_precmode">Szene-Programme</title>
+<title id="title_precmode_sport">Sport</title>
+<title id="title_precmode_landscape">Landschaft</title>
+<title id="title_precmode_night_portrait">Nachtportrait</title>
+<title id="title_precmode_snow_beach">Schnee / Strand</title>
+<title id="title_precmode_fireworks">Feuerwerk</title>
+<title id="title_precmode_candle_light">Kerzenlicht</title>
+<title id="title_precmode_sunset">Sonnenuntergang</title>
+<title id="title_precmode_digiscoping">Digiskopie</title>
+</language>
+
+<language code="fr" >
+<title id="title_drivemode">Mode déclenchement</title>
+<title id="title_drivemode_single">Une seule</title>
+<title id="title_drivemode_burst_s">Rafale - 2 ips / 14 bit / AF</title>
+<title id="title_drivemode_burst_m">Rafale - 4 ips / 14 bit / AF</title>
+<title id="title_drivemode_burst_mh">Rafale - 7 ips / 14 bit</title>
+<title id="title_drivemode_burst_f">Rafale - 9 ips / 12 bit</title>
+<title id="title_drivemode_burst_ss">Rafale - 15 ips / 12 bit</title>
+<title id="title_drivemode_bracketing">Bracketing d&apos;expos.</title>
+<title id="title_bracket_frames">Nombre de prises de vue</title>
+<title id="title_bracket_aperture">Incréments EV</title>
+<title id="title_bracket_exposure">Correction de l&apos;exposition</title>
+<title id="title_bracket_auto">Auto</title>
+<title id="title_selftimer">Retardateur</title>
+<title id="title_selftimer_off">Arrêt</title>
+<title id="title_selftimer_2sec">Retardateur 2 s</title>
+<title id="title_selftimer_12sec">Retardateur 12 s</title>
+<title id="title_focus">Mise au point</title>
+<title id="title_focusmode">Mode de mise au point</title>
+<title id="title_focusmode_aff">AF intelligent</title>
+<title id="title_afmode">Mode AF</title>
+<title id="title_afmode_multi_field">Multi-Zone</title>
+<title id="title_afmode_1area">Champ</title>
+<title id="title_afmode_aftracking">Poursuite</title>
+<title id="title_afmode_facedetection">Détection des personnes</title>
+<title id="title_afmode_auto_recognize">Détection des personnes et animaux</title>
+<title id="title_touch_af">Touche AF</title>
+<title id="title_touch_af_off">Arrêt</title>
+<title id="title_touch_af_on">Touche AF</title>
+<title id="title_touch_af_touch_shut">Touche AF + déclenchement</title>
+<title id="title_lightmet">Mesure de l&apos;exposition</title>
+<title id="title_lightmet_center">Mesure centr. pondérée</title>
+<title id="title_lightmet_highlight">Priorité aux zones claires</title>
+<title id="title_lightmet_multi">Multi-Zone</title>
+<title id="title_photoformat">Format fichier photo</title>
+<title id="title_dng_reso">Résolution DNG</title>
+<title id="title_pictsizetype">Résolution JPG max.</title>
+<title id="title_colormode">Mode pellicule</title>
+<title id="title_colormode_vivid">Éclatant</title>
+<title id="title_colormode_natural">Naturel</title>
+<title id="title_colormode_l_bw">Monochrome contraste élevé</title>
+<title id="title_photoaspect">Format d&apos;image</title>
+<title id="title_videoformat">Format de fichier vidéo</title>
+<title id="title_v_quality">Résolution vidéo</title>
+<title id="title_v_quality_mov_30p_300mbps_c8k_420_10bit">29.97ips/L-GOP/300Mbps/4:2:0-10bit SD/4:2:2-10bit C4K HDMI</title>
+<title id="title_v_quality_mov_25p_300mbps_c8k_420_10bit">25ips/L-GOP/300Mbps/4:2:0-10bit SD/4:2:2-10bit C4K HDMI</title>
+<title id="title_v_quality_mov_c24p_300mbps_c8k_420_10bit">24ips/L-GOP/300Mbps/4:2:0-10bit SD/4:2:2-10bit C4K HDMI</title>
+<title id="title_v_quality_mov_24p_300mbps_c8k_420_10bit">23.98ips/L-GOP/300Mbps/4:2:0-10bit SD/4:2:2-10bit C4K HDMI</title>
+<title id="title_v_quality_mov_30p_300mbps_8k_420_10bit">29.97ips/L-GOP/300Mbps/4:2:0-10bit SD/4:2:2-10bit 4K HDMI</title>
+<title id="title_v_quality_mov_25p_300mbps_8k_420_10bit">25ips/L-GOP/300Mbps/4:2:0-10bit SD/4:2:2-10bit 4K HDMI</title>
+<title id="title_v_quality_mov_c24p_300mbps_8k_420_10bit">24ips/L-GOP/300Mbps/4:2:0-10bit SD/4:2:2-10bit 4K HDMI</title>
+<title id="title_v_quality_mov_24p_300mbps_8k_420_10bit">23.98ips/L-GOP/300Mbps/4:2:0-10bit SD/4:2:2-10bit 4K HDMI</title>
+<title id="title_v_quality_mov_60p_600mbps_c4k_422_10bit">59.94ips/All-I/600Mbps/4:2:2-10bit SD &amp; HDMI</title>
+<title id="title_v_quality_mov_50p_600mbps_c4k_422_10bit">50ips/All-I/600Mbps/4:2:2-10bit SD &amp; HDMI</title>
+<title id="title_v_quality_mov_c48p_600mbps_c4k_422_10bit">48ips/All-I/600Mbps/4:2:2-10bit SD/4:2:2-10bit 24fps HDMI</title>
+<title id="title_v_quality_mov_48p_600mbps_c4k_422_10bit">47.95ips/All-I/600Mbps/4:2:2-10bit SD/4:2:2-10bit 23.98fps HDMI</title>
+<title id="title_v_quality_mov_30p_400mbps_c4k_10bit">29.97ips/All-I/400Mbps/4:2:2-10bit SD &amp; HDMI</title>
+<title id="title_v_quality_mov_25p_400mbps_c4k_10bit">25ips/All-I/400Mbps/4:2:2-10bit SD &amp; HDMI</title>
+<title id="title_v_quality_mov_c24p_400mbps_c4k_10bit">24ips/All-I/400Mbps/4:2:2-10bit SD &amp; HDMI</title>
+<title id="title_v_quality_mov_24p_400mbps_c4k_10bit">23.98ips/All-I/400Mbps/4:2:2-10bit SD &amp; HDMI</title>
+<title id="title_v_quality_mov_60p_600mbps_4k_422_10bit">59.94ips/All-I/600Mbps/4:2:2-10bit SD &amp; HDMI</title>
+<title id="title_v_quality_mov_50p_600mbps_4k_422_10bit">50ips/All-I/600Mbps/4:2:2-10bit SD &amp; HDMI</title>
+<title id="title_v_quality_mov_c48p_600mbps_4k_422_10bit">48ips/All-I/600Mbps/4:2:2-10bit SD/4:2:2-10bit 24fps HDMI</title>
+<title id="title_v_quality_mov_48p_600mbps_4k_422_10bit">47.95ips/All-I/600Mbps/4:2:2-10bit SD/4:2:2-10bit 23.98fps HDMI</title>
+<title id="title_v_quality_mov_30p_400mbps_4k_10bit">29.97ips/All-I/400Mbps/4:2:2-10bit SD &amp; HDMI</title>
+<title id="title_v_quality_mov_25p_400mbps_4k_10bit">25ips/All-I/400Mbps/4:2:2-10bit SD &amp; HDMI</title>
+<title id="title_v_quality_mov_c24p_400mbps_4k_10bit">24ips/All-I/400Mbps/4:2:2-10bit SD &amp; HDMI</title>
+<title id="title_v_quality_mov_24p_400mbps_4k_10bit">23.98ips/All-I/400Mbps/4:2:2-10bit SD &amp; HDMI</title>
+<title id="title_v_quality_prores_60p_454mbps_422_hq_10bit">59.94ips/454Mbps/422HQ SD &amp; HDMI</title>
+<title id="title_v_quality_prores_50p_378mbps_422_hq_10bit">50ips/378Mbps/422HQ SD &amp; HDMI</title>
+<title id="title_v_quality_prores_30p_227mbps_422_hq_10bit">29.97ips/227Mbps/422HQ SD &amp; HDMI</title>
+<title id="title_v_quality_prores_25p_189mbps_422_hq_10bit">25ips/189Mbps/422HQ SD &amp; HDMI</title>
+<title id="title_v_quality_prores_c24p_182mbps_422_hq_10bit">24ips/182Mbps/422HQ SD &amp; HDMI</title>
+<title id="title_v_quality_prores_24p_181mbps_422_hq_10bit">23.98ips/181Mbps/422HQ SD &amp; HDMI</title>
+<title id="title_v_quality_mov_120p_400mbps_422_10bit">119.88ips/All-I/400Mbps/4:2:2-10bit SD &amp; HDMI</title>
+<title id="title_v_quality_mov_100p_400mbps_422_10bit">100ips/All-I/400Mbps/4:2:2-10bit SD &amp; HDMI</title>
+<title id="title_v_quality_mov_60p_200mbps_10bit">59.94ips/All-I/200Mbps/4:2:2-10bit SD &amp; HDMI</title>
+<title id="title_v_quality_mov_50p_200mbps_10bit">50ips/All-I/200Mbps/4:2:2-10bit SD &amp; HDMI</title>
+<title id="title_v_quality_mov_c48p_200mbps_422_10bit">48ips/All-I/200Mbps/4:2:2-10bit SD &amp; HDMI</title>
+<title id="title_v_quality_mov_48p_200mbps_422_10bit">47.95ips/All-I/200Mbps/4:2:2-10bit SD &amp; HDMI</title>
+<title id="title_v_quality_mov_30p_200mbps_10bit">29.97ips/All-I/200Mbps/4:2:2-10bit SD &amp; HDMI</title>
+<title id="title_v_quality_mov_25p_200mbps_10bit">25ips/All-I/200Mbps/4:2:2-10bit SD &amp; HDMI</title>
+<title id="title_v_quality_mov_c24p_200mbps_10bit">24ips/All-I/200Mbps/4:2:2-10bit SD &amp; HDMI</title>
+<title id="title_v_quality_mov_24p_200mbps_10bit">23.98ips/All-I/200Mbps/4:2:2-10bit SD &amp; HDMI</title>
+<title id="title_v_quality_mov_120p_100mbps_420_10bit">119.88ips/L-GOP/100Mbps/4:2:0-10bit SD &amp; HDMI</title>
+<title id="title_v_quality_mov_100p_100mbps_420_10bit">100ips/L-GOP/100Mbps/4:2:0-10bit SD &amp; HDMI</title>
+<title id="title_v_quality_mp4_30p_300mbps_8k_10bit">29.97ips/L-GOP/300Mbps/4:2:0-10bit SD/4:2:2-10bit 4K HDMI</title>
+<title id="title_v_quality_mp4_25p_300mbps_8k_10bit">25ips/L-GOP/300Mbps/4:2:0-10bit SD/4:2:2-10bit 4K HDMI</title>
+<title id="title_v_quality_mp4_24p_300mbps_8k_10bit">23.98ips/L-GOP/300Mbps/4:2:0-10bit SD/4:2:2-10bit 4K HDMI</title>
+<title id="title_v_quality_mp4_60p_100mbps_4k_10bit">59.94ips/L-GOP/100Mbps/4:2:0-10bit SD &amp; HDMI/H.265 </title>
+<title id="title_v_quality_mp4_50p_100mbps_4k_10bit">50ips/L-GOP/100Mbps/4:2:0-10bit SD &amp; HDMI/H.265 </title>
+<title id="title_v_quality_mp4_30p_100mbps_4k">29.97ips/L-GOP/100Mbps/4:2:0-8bit SD &amp; HDMI/H.264</title>
+<title id="title_v_quality_mp4_25p_100mbps_4k">25ips/L-GOP/100Mbps/4:2:0-8bit SD &amp; HDMI/H.264</title>
+<title id="title_v_quality_mp4_24p_100mbps_4k">23.98ips/L-GOP/100Mbps/4:2:0-8bit SD &amp; HDMI/H.264</title>
+<title id="title_v_quality_mp4_60p_28mbps">59.94ips/L-GOP/28Mbps/4:2:0-8bit SD &amp; HDMI</title>
+<title id="title_v_quality_mp4_50p_28mbps">50ips/L-GOP/28Mbps/4:2:0-8bit SD &amp; HDMI</title>
+<title id="title_v_quality_mp4_30p_20mbps">29.97ips/L-GOP/20Mbps/4:2:0-8bit SD &amp; HDMI</title>
+<title id="title_v_quality_mp4_25p_20mbps">25ips/L-GOP/20Mbps/4:2:0-8bit SD &amp; HDMI</title>
+<title id="title_v_quality_mp4_24p_24mbps">23.98ips/L-GOP/20Mbps/4:2:0-8bit SD &amp; HDMI</title>
+<title id="title_videostyle">Mode vidéo</title>
+<title id="title_videostyle_vivid">Éclatant</title>
+<title id="title_videostyle_natural">Naturel</title>
+<title id="title_videostyle_l_bw">Monochrome contraste élevé</title>
+<title id="title_lut_preview">Profil LUT</title>
+<title id="title_lut_preview_off">Arrêt</title>
+<title id="title_lut_preview_lut1">Naturel</title>
+<title id="title_lut_preview_lut2">Classique</title>
+<title id="title_lut_usage">Sortie</title>
+<title id="title_perspective_control">Contrôle de la perspective</title>
+<title id="title_aperture">Diaphragme</title>
+<title id="title_shutter_speed">Vitesse d&apos;obturation</title>
+<title id="title_program_shift">Changem. de progr.</title>
+<title id="title_exposure2">Correction de l&apos;exposition</title>
+<title id="title_whitebalance">Balance des blancs</title>
+<title id="title_whitebalance_daylight">Soleil</title>
+<title id="title_whitebalance_cloudy">Nuageux</title>
+<title id="title_whitebalance_shade">Ombre</title>
+<title id="title_whitebalance_halogen">Éclairage artificiel</title>
+<title id="title_whitebalance_greycard">Carte de gris neutre</title>
+<title id="title_whitebalance_color_temp">Température de couleur</title>
+<title id="title_digital_tri">Zoom numérique</title>
+<title id="title_precmode">Mode Scènes</title>
+<title id="title_precmode_sport">Sport</title>
+<title id="title_precmode_landscape">Paysage</title>
+<title id="title_precmode_night_portrait">Portrait nocturne</title>
+<title id="title_precmode_snow_beach">Neige / Plage</title>
+<title id="title_precmode_fireworks">Feux d&apos;artifice</title>
+<title id="title_precmode_candle_light">Éclairage à la bougie</title>
+<title id="title_precmode_sunset">Coucher de soleil</title>
+<title id="title_precmode_digiscoping">Digiscopie</title>
+</language>
+
+<language code="it" >
+<title id="title_drivemode">Modo di scatto</title>
+<title id="title_drivemode_single">Singolo</title>
+<title id="title_drivemode_burst_s">Continuo - 2 f/s, 14 bit, AF</title>
+<title id="title_drivemode_burst_m">Continuo - 4 f/s, 14 bit, AF</title>
+<title id="title_drivemode_burst_mh">Continuo - 7 f/s, 14 bit</title>
+<title id="title_drivemode_burst_f">Continuo - 9 f/s, 12 bit</title>
+<title id="title_drivemode_burst_ss">Continuo - 15 f/s, 12 bit</title>
+<title id="title_drivemode_bracketing">Bracketing esposizione</title>
+<title id="title_bracket_frames">Numero di scatti</title>
+<title id="title_bracket_aperture">Incrementi EV</title>
+<title id="title_bracket_exposure">Compensazione esposizione</title>
+<title id="title_bracket_auto">Automatico</title>
+<title id="title_selftimer">Autoscatto</title>
+<title id="title_selftimer_2sec">Autoscatto 2 s</title>
+<title id="title_selftimer_12sec">Autoscatto 12 s</title>
+<title id="title_focus">Messa a fuoco</title>
+<title id="title_focusmode">Modalità di messa a fuoco</title>
+<title id="title_focusmode_aff">AF intelligente</title>
+<title id="title_afmode">Modalità AF</title>
+<title id="title_afmode_multi_field">Multi-Area</title>
+<title id="title_afmode_1area">Campo</title>
+<title id="title_afmode_zone">Zona</title>
+<title id="title_afmode_facedetection">Riconoscimento persone</title>
+<title id="title_afmode_auto_recognize">Riconoscimento persone e animali</title>
+<title id="title_touch_af_touch_shut">Touch AF + scatto</title>
+<title id="title_lightmet">Misurazione esposizione</title>
+<title id="title_lightmet_center">Prevalenza al centro</title>
+<title id="title_lightmet_highlight">Prevalenza zone chiare</title>
+<title id="title_lightmet_multi">Multi-Area</title>
+<title id="title_photoformat">Formato file foto</title>
+<title id="title_dng_reso">Risoluzione DNG</title>
+<title id="title_pictsizetype">Risoluzione JPG max.</title>
+<title id="title_colormode">Stile film</title>
+<title id="title_colormode_vivid">Vivace</title>
+<title id="title_colormode_natural">Naturale</title>
+<title id="title_colormode_bw">Monocromatico</title>
+<title id="title_colormode_l_bw">Monocromatico alto contrasto</title>
+<title id="title_photoaspect">Rapporto d’aspetto della foto</title>
+<title id="title_videoformat">Formato File Video</title>
+<title id="title_v_quality">Risoluzione video</title>
+<title id="title_v_quality_mov_30p_300mbps_c8k_420_10bit">29.97f/s/L-GOP/300Mbps/4:2:0-10bit SD/4:2:2-10bit C4K HDMI</title>
+<title id="title_v_quality_mov_25p_300mbps_c8k_420_10bit">25f/s/L-GOP/300Mbps/4:2:0-10bit SD/4:2:2-10bit C4K HDMI</title>
+<title id="title_v_quality_mov_c24p_300mbps_c8k_420_10bit">24f/s/L-GOP/300Mbps/4:2:0-10bit SD/4:2:2-10bit C4K HDMI</title>
+<title id="title_v_quality_mov_24p_300mbps_c8k_420_10bit">23.98f/s/L-GOP/300Mbps/4:2:0-10bit SD/4:2:2-10bit C4K HDMI</title>
+<title id="title_v_quality_mov_30p_300mbps_8k_420_10bit">29.97f/s/L-GOP/300Mbps/4:2:0-10bit SD/4:2:2-10bit 4K HDMI</title>
+<title id="title_v_quality_mov_25p_300mbps_8k_420_10bit">25f/s/L-GOP/300Mbps/4:2:0-10bit SD/4:2:2-10bit 4K HDMI</title>
+<title id="title_v_quality_mov_c24p_300mbps_8k_420_10bit">24f/s/L-GOP/300Mbps/4:2:0-10bit SD/4:2:2-10bit 4K HDMI</title>
+<title id="title_v_quality_mov_24p_300mbps_8k_420_10bit">23.98f/s/L-GOP/300Mbps/4:2:0-10bit SD/4:2:2-10bit 4K HDMI</title>
+<title id="title_v_quality_mov_60p_600mbps_c4k_422_10bit">59.94f/s/All-I/600Mbps/4:2:2-10bit SD &amp; HDMI</title>
+<title id="title_v_quality_mov_50p_600mbps_c4k_422_10bit">50f/s/All-I/600Mbps/4:2:2-10bit SD &amp; HDMI</title>
+<title id="title_v_quality_mov_c48p_600mbps_c4k_422_10bit">48f/s/All-I/600Mbps/4:2:2-10bit SD/4:2:2-10bit 24fps HDMI</title>
+<title id="title_v_quality_mov_48p_600mbps_c4k_422_10bit">47.95f/s/All-I/600Mbps/4:2:2-10bit SD/4:2:2-10bit 23.98fps HDMI</title>
+<title id="title_v_quality_mov_30p_400mbps_c4k_10bit">29.97f/s/All-I/400Mbps/4:2:2-10bit SD &amp; HDMI</title>
+<title id="title_v_quality_mov_25p_400mbps_c4k_10bit">25f/s/All-I/400Mbps/4:2:2-10bit SD &amp; HDMI</title>
+<title id="title_v_quality_mov_c24p_400mbps_c4k_10bit">24f/s/All-I/400Mbps/4:2:2-10bit SD &amp; HDMI</title>
+<title id="title_v_quality_mov_24p_400mbps_c4k_10bit">23.98f/s/All-I/400Mbps/4:2:2-10bit SD &amp; HDMI</title>
+<title id="title_v_quality_mov_60p_600mbps_4k_422_10bit">59.94f/s/All-I/600Mbps/4:2:2-10bit SD &amp; HDMI</title>
+<title id="title_v_quality_mov_50p_600mbps_4k_422_10bit">50f/s/All-I/600Mbps/4:2:2-10bit SD &amp; HDMI</title>
+<title id="title_v_quality_mov_c48p_600mbps_4k_422_10bit">48f/s/All-I/600Mbps/4:2:2-10bit SD/4:2:2-10bit 24fps HDMI</title>
+<title id="title_v_quality_mov_48p_600mbps_4k_422_10bit">47.95f/s/All-I/600Mbps/4:2:2-10bit SD/4:2:2-10bit 23.98fps HDMI</title>
+<title id="title_v_quality_mov_30p_400mbps_4k_10bit">29.97f/s/All-I/400Mbps/4:2:2-10bit SD &amp; HDMI</title>
+<title id="title_v_quality_mov_25p_400mbps_4k_10bit">25f/s/All-I/400Mbps/4:2:2-10bit SD &amp; HDMI</title>
+<title id="title_v_quality_mov_c24p_400mbps_4k_10bit">24f/s/All-I/400Mbps/4:2:2-10bit SD &amp; HDMI</title>
+<title id="title_v_quality_mov_24p_400mbps_4k_10bit">23.98f/s/All-I/400Mbps/4:2:2-10bit SD &amp; HDMI</title>
+<title id="title_v_quality_prores_60p_454mbps_422_hq_10bit">59.94f/s/454Mbps/422HQ SD &amp; HDMI</title>
+<title id="title_v_quality_prores_50p_378mbps_422_hq_10bit">50f/s/378Mbps/422HQ SD &amp; HDMI</title>
+<title id="title_v_quality_prores_30p_227mbps_422_hq_10bit">29.97f/s/227Mbps/422HQ SD &amp; HDMI</title>
+<title id="title_v_quality_prores_25p_189mbps_422_hq_10bit">25f/s/189Mbps/422HQ SD &amp; HDMI</title>
+<title id="title_v_quality_prores_c24p_182mbps_422_hq_10bit">24f/s/182Mbps/422HQ SD &amp; HDMI</title>
+<title id="title_v_quality_prores_24p_181mbps_422_hq_10bit">23.98f/s/181Mbps/422HQ SD &amp; HDMI</title>
+<title id="title_v_quality_mov_120p_400mbps_422_10bit">119.88f/s/All-I/400Mbps/4:2:2-10bit SD &amp; HDMI</title>
+<title id="title_v_quality_mov_100p_400mbps_422_10bit">100f/s/All-I/400Mbps/4:2:2-10bit SD &amp; HDMI</title>
+<title id="title_v_quality_mov_60p_200mbps_10bit">59.94f/s/All-I/200Mbps/4:2:2-10bit SD &amp; HDMI</title>
+<title id="title_v_quality_mov_50p_200mbps_10bit">50f/s/All-I/200Mbps/4:2:2-10bit SD &amp; HDMI</title>
+<title id="title_v_quality_mov_c48p_200mbps_422_10bit">48f/s/All-I/200Mbps/4:2:2-10bit SD &amp; HDMI</title>
+<title id="title_v_quality_mov_48p_200mbps_422_10bit">47.95f/s/All-I/200Mbps/4:2:2-10bit SD &amp; HDMI</title>
+<title id="title_v_quality_mov_30p_200mbps_10bit">29.97f/s/All-I/200Mbps/4:2:2-10bit SD &amp; HDMI</title>
+<title id="title_v_quality_mov_25p_200mbps_10bit">25f/s/All-I/200Mbps/4:2:2-10bit SD &amp; HDMI</title>
+<title id="title_v_quality_mov_c24p_200mbps_10bit">24f/s/All-I/200Mbps/4:2:2-10bit SD &amp; HDMI</title>
+<title id="title_v_quality_mov_24p_200mbps_10bit">23.98f/s/All-I/200Mbps/4:2:2-10bit SD &amp; HDMI</title>
+<title id="title_v_quality_mov_120p_100mbps_420_10bit">119.88f/s/L-GOP/100Mbps/4:2:0-10bit SD &amp; HDMI</title>
+<title id="title_v_quality_mov_100p_100mbps_420_10bit">100f/s/L-GOP/100Mbps/4:2:0-10bit SD &amp; HDMI</title>
+<title id="title_v_quality_mp4_30p_300mbps_8k_10bit">29.97f/s/L-GOP/300Mbps/4:2:0-10bit SD/4:2:2-10bit 4K HDMI</title>
+<title id="title_v_quality_mp4_25p_300mbps_8k_10bit">25f/s/L-GOP/300Mbps/4:2:0-10bit SD/4:2:2-10bit 4K HDMI</title>
+<title id="title_v_quality_mp4_24p_300mbps_8k_10bit">23.98f/s/L-GOP/300Mbps/4:2:0-10bit SD/4:2:2-10bit 4K HDMI</title>
+<title id="title_v_quality_mp4_60p_100mbps_4k_10bit">59.94f/s/L-GOP/100Mbps/4:2:0-10bit SD &amp; HDMI/H.265 </title>
+<title id="title_v_quality_mp4_50p_100mbps_4k_10bit">50f/s/L-GOP/100Mbps/4:2:0-10bit SD &amp; HDMI/H.265 </title>
+<title id="title_v_quality_mp4_30p_100mbps_4k">29.97f/s/L-GOP/100Mbps/4:2:0-8bit SD &amp; HDMI/H.264</title>
+<title id="title_v_quality_mp4_25p_100mbps_4k">25f/s/L-GOP/100Mbps/4:2:0-8bit SD &amp; HDMI/H.264</title>
+<title id="title_v_quality_mp4_24p_100mbps_4k">23.98f/s/L-GOP/100Mbps/4:2:0-8bit SD &amp; HDMI/H.264</title>
+<title id="title_v_quality_mp4_60p_28mbps">59.94f/s/L-GOP/28Mbps/4:2:0-8bit SD &amp; HDMI</title>
+<title id="title_v_quality_mp4_50p_28mbps">50f/s/L-GOP/28Mbps/4:2:0-8bit SD &amp; HDMI</title>
+<title id="title_v_quality_mp4_30p_20mbps">29.97f/s/L-GOP/20Mbps/4:2:0-8bit SD &amp; HDMI</title>
+<title id="title_v_quality_mp4_25p_20mbps">25f/s/L-GOP/20Mbps/4:2:0-8bit SD &amp; HDMI</title>
+<title id="title_v_quality_mp4_24p_24mbps">23.98f/s/L-GOP/20Mbps/4:2:0-8bit SD &amp; HDMI</title>
+<title id="title_videostyle">Stile video</title>
+<title id="title_videostyle_vivid">Vivace</title>
+<title id="title_videostyle_natural">Naturale</title>
+<title id="title_videostyle_bw">Monocromatico</title>
+<title id="title_videostyle_l_bw">Monocromatico alto contrasto</title>
+<title id="title_lut_preview">Profilo LUT</title>
+<title id="title_lut_preview_lut1">Naturale</title>
+<title id="title_lut_preview_lut2">Classico</title>
+<title id="title_perspective_control">Controllo della prospettiva</title>
+<title id="title_aperture">Apertura</title>
+<title id="title_shutter_speed">Tempo di posa</title>
+<title id="title_program_shift">Cambio programma</title>
+<title id="title_exposure2">Compensazione esposizione</title>
+<title id="title_whitebalance">Bilanciam. bianco</title>
+<title id="title_whitebalance_daylight">Sole</title>
+<title id="title_whitebalance_cloudy">Nuvoloso</title>
+<title id="title_whitebalance_shade">Ombra</title>
+<title id="title_whitebalance_halogen">Incandescenza</title>
+<title id="title_whitebalance_greycard">Grigio medio</title>
+<title id="title_whitebalance_color_temp">Temperatura colore</title>
+<title id="title_digital_tri">Zoom digitale</title>
+<title id="title_precmode">Modalità Scene</title>
+<title id="title_precmode_sport">Sport</title>
+<title id="title_precmode_portrait">Ritratto</title>
+<title id="title_precmode_landscape">Panorama</title>
+<title id="title_precmode_night_portrait">Ritratto notturno</title>
+<title id="title_precmode_snow_beach">Neve / Spiaggia</title>
+<title id="title_precmode_fireworks">Fuochi artificiali</title>
+<title id="title_precmode_candle_light">Lume di candela</title>
+<title id="title_precmode_sunset">Tramonto</title>
+<title id="title_precmode_digiscoping">Digiscopia</title>
+</language>
+
+<language code="es" >
+<title id="title_drivemode">Modo de disparo</title>
+<title id="title_drivemode_single">Uno</title>
+<title id="title_drivemode_burst_s">Continuo - 2 fps / 14 bit / AF</title>
+<title id="title_drivemode_burst_m">Continuo - 4 fps / 14 bit / AF</title>
+<title id="title_drivemode_burst_mh">Continuo - 7 fps / 14 bit</title>
+<title id="title_drivemode_burst_f">Continuo - 9 fps / 12 bit</title>
+<title id="title_drivemode_burst_ss">Continuo - 15 fps / 12 bit</title>
+<title id="title_drivemode_bracketing">Bracketing de exp.</title>
+<title id="title_bracket_frames">N.º imágenes</title>
+<title id="title_bracket_aperture">Pasos toma progresiva</title>
+<title id="title_bracket_exposure">Compensación de exposición</title>
+<title id="title_bracket_auto">Automático</title>
+<title id="title_selftimer">Autodisparador</title>
+<title id="title_selftimer_2sec">Autodisparador 2 s</title>
+<title id="title_selftimer_12sec">Autodisparador 12 s</title>
+<title id="title_focus">Enfoque</title>
+<title id="title_focusmode">Modo de enfoque</title>
+<title id="title_focusmode_aff">AF inteligente</title>
+<title id="title_afmode">Modo AF</title>
+<title id="title_afmode_multi_field">Matricial</title>
+<title id="title_afmode_spot">Puntual</title>
+<title id="title_afmode_1area">Campo</title>
+<title id="title_afmode_zone">Zona</title>
+<title id="title_afmode_aftracking">Seguimiento</title>
+<title id="title_afmode_facedetection">Detección de personas</title>
+<title id="title_afmode_auto_recognize">Reconocimiento facial y de animales</title>
+<title id="title_touch_af">AF táctil</title>
+<title id="title_touch_af_on">AF táctil</title>
+<title id="title_touch_af_touch_shut">AF táctil + disparo</title>
+<title id="title_lightmet">Medición de exposición</title>
+<title id="title_lightmet_spot">Puntual</title>
+<title id="title_lightmet_center">Pond. al centro</title>
+<title id="title_lightmet_highlight">Pond. altas luces</title>
+<title id="title_lightmet_multi">Matricial</title>
+<title id="title_photoformat">Formato de archivo de foto</title>
+<title id="title_dng_reso">Resolución DNG</title>
+<title id="title_pictsizetype">Resolución JPG máx.</title>
+<title id="title_colormode">Estilos de imagen</title>
+<title id="title_colormode_standard">Normal</title>
+<title id="title_colormode_vivid">Colores vivos</title>
+<title id="title_colormode_bw">Monocromo</title>
+<title id="title_colormode_l_bw">Monocromo de alto contraste</title>
+<title id="title_photoaspect">Relaciones lados-Foto</title>
+<title id="title_videoformat">Formato Archivo Vídeo</title>
+<title id="title_v_quality">Resolución de vídeo</title>
+<title id="title_videostyle">Estilos de vídeo</title>
+<title id="title_videostyle_standard">Normal</title>
+<title id="title_videostyle_vivid">Colores vivos</title>
+<title id="title_videostyle_bw">Monocromo</title>
+<title id="title_videostyle_l_bw">Monocromo de alto contraste</title>
+<title id="title_lut_preview">Perfil LUT</title>
+<title id="title_lut_preview_lut2">Clásico</title>
+<title id="title_lut_usage">Salida</title>
+<title id="title_perspective_control">Control de la perspectiva</title>
+<title id="title_aperture">Diafragma</title>
+<title id="title_shutter_speed">Veloc. de obturación</title>
+<title id="title_program_shift">Programa Shift</title>
+<title id="title_exposure2">Compensación de exposición</title>
+<title id="title_whitebalance">Balance de blancos</title>
+<title id="title_whitebalance_daylight">Sol</title>
+<title id="title_whitebalance_cloudy">Nublado</title>
+<title id="title_whitebalance_shade">Sombra</title>
+<title id="title_whitebalance_halogen">Tungsteno</title>
+<title id="title_whitebalance_greycard">Carta de grises</title>
+<title id="title_whitebalance_color_temp">Temperatura de color</title>
+<title id="title_digital_tri">Zoom digital</title>
+<title id="title_precmode">Modos Escena</title>
+<title id="title_precmode_sport">Deportes</title>
+<title id="title_precmode_portrait">Retrato</title>
+<title id="title_precmode_landscape">Paisaje</title>
+<title id="title_precmode_night_portrait">Retrato nocturno</title>
+<title id="title_precmode_snow_beach">Nieve / Playa</title>
+<title id="title_precmode_fireworks">Fuegos artificiales</title>
+<title id="title_precmode_candle_light">Luz de velas</title>
+<title id="title_precmode_sunset">Puesta de sol</title>
+</language>
+
+<language code="zh-TW" >
+<title id="title_drivemode">驅動模式</title>
+<title id="title_drivemode_single">單張</title>
+<title id="title_drivemode_burst_s">連拍 - 2 fps / 14 bit / AF</title>
+<title id="title_drivemode_burst_m">連拍 - 4 fps / 14 bit / AF</title>
+<title id="title_drivemode_burst_mh">連拍 - 7 fps / 14 bit</title>
+<title id="title_drivemode_burst_f">連拍 - 9 fps / 12 bit</title>
+<title id="title_drivemode_burst_ss">連拍 - 15 fps / 12 bit</title>
+<title id="title_drivemode_bracketing">包圍曝光</title>
+<title id="title_bracket_frames">拍攝張數</title>
+<title id="title_bracket_aperture">EV步驟</title>
+<title id="title_bracket_exposure">曝光補償</title>
+<title id="title_bracket_auto">自動</title>
+<title id="title_selftimer">自拍定時器</title>
+<title id="title_selftimer_off">關</title>
+<title id="title_selftimer_2sec">自拍定時器2秒</title>
+<title id="title_selftimer_12sec">自拍定時器12秒</title>
+<title id="title_focus">對焦</title>
+<title id="title_focusmode">調焦模式</title>
+<title id="title_focusmode_aff">智能AF</title>
+<title id="title_afmode">自動對焦模式</title>
+<title id="title_afmode_multi_field">多區</title>
+<title id="title_afmode_spot">點</title>
+<title id="title_afmode_1area">場</title>
+<title id="title_afmode_zone">區</title>
+<title id="title_afmode_aftracking">追蹤</title>
+<title id="title_afmode_facedetection">人識別</title>
+<title id="title_afmode_auto_recognize">人和動物的識別</title>
+<title id="title_touch_af">觸摸自動對焦</title>
+<title id="title_touch_af_off">關</title>
+<title id="title_touch_af_on">觸摸自動對焦</title>
+<title id="title_touch_af_touch_shut">觸摸自動對焦+曝光</title>
+<title id="title_lightmet">測光模式</title>
+<title id="title_lightmet_spot">點</title>
+<title id="title_lightmet_center">中央重點</title>
+<title id="title_lightmet_highlight">強調亮區</title>
+<title id="title_lightmet_multi">多區</title>
+<title id="title_photoformat">相片檔案格式</title>
+<title id="title_dng_reso">DNG解析度</title>
+<title id="title_pictsizetype">最大JPG解析度</title>
+<title id="title_colormode">圖像風格</title>
+<title id="title_colormode_standard">標準</title>
+<title id="title_colormode_vivid">豔麗</title>
+<title id="title_colormode_natural">自然</title>
+<title id="title_colormode_bw">單色</title>
+<title id="title_colormode_l_bw">高對比度單色調</title>
+<title id="title_photoaspect">相片長寬比</title>
+<title id="title_videoformat">視訊檔案格式</title>
+<title id="title_v_quality">視訊解析度</title>
+<title id="title_videostyle">視訊畫面風格</title>
+<title id="title_videostyle_standard">標準</title>
+<title id="title_videostyle_vivid">豔麗</title>
+<title id="title_videostyle_natural">自然</title>
+<title id="title_videostyle_bw">單色</title>
+<title id="title_videostyle_l_bw">高對比度單色調</title>
+<title id="title_lut_preview">LUT配置文件</title>
+<title id="title_lut_preview_off">關</title>
+<title id="title_lut_preview_lut1">自然</title>
+<title id="title_lut_preview_lut2">經典</title>
+<title id="title_lut_usage">輸出</title>
+<title id="title_perspective_control">透視校正</title>
+<title id="title_aperture">光圈</title>
+<title id="title_shutter_speed">快門速度</title>
+<title id="title_program_shift">模式切換</title>
+<title id="title_sensitivity_auto">自動ISO</title>
+<title id="title_exposure2">曝光補償</title>
+<title id="title_whitebalance">白平衡</title>
+<title id="title_whitebalance_auto">自動</title>
+<title id="title_whitebalance_daylight">晴天</title>
+<title id="title_whitebalance_cloudy">陰天</title>
+<title id="title_whitebalance_shade">陰影</title>
+<title id="title_whitebalance_halogen">人造光</title>
+<title id="title_whitebalance_flash">閃光燈</title>
+<title id="title_whitebalance_greycard">灰平衡卡</title>
+<title id="title_whitebalance_color_temp">色溫</title>
+<title id="title_digital_tri">數位變焦</title>
+<title id="title_precmode">場景模式</title>
+<title id="title_precmode_sport">運動</title>
+<title id="title_precmode_portrait">肖像</title>
+<title id="title_precmode_landscape">風景</title>
+<title id="title_precmode_night_portrait">夜間肖像</title>
+<title id="title_precmode_snow_beach">雪地/沙灘</title>
+<title id="title_precmode_fireworks">煙火</title>
+<title id="title_precmode_candle_light">燭光</title>
+<title id="title_precmode_sunset">日落</title>
+<title id="title_precmode_digiscoping">接望遠鏡拍攝</title>
+</language>
+
+<language code="zh-CN" >
+<title id="title_drivemode">驱动模式</title>
+<title id="title_drivemode_single">单张</title>
+<title id="title_drivemode_burst_s">连拍 - 2 fps / 14 bit / AF</title>
+<title id="title_drivemode_burst_m">连拍 - 4 fps / 14 bit / AF</title>
+<title id="title_drivemode_burst_mh">连拍 - 7 fps / 14 bit</title>
+<title id="title_drivemode_burst_f">连拍 - 9 fps / 12 bit</title>
+<title id="title_drivemode_burst_ss">连拍 - 15 fps / 12 bit</title>
+<title id="title_drivemode_bracketing">包围曝光</title>
+<title id="title_bracket_frames">拍摄张数</title>
+<title id="title_bracket_aperture">EV步骤</title>
+<title id="title_bracket_exposure">曝光补偿</title>
+<title id="title_bracket_auto">自动</title>
+<title id="title_selftimer">自拍定时器</title>
+<title id="title_selftimer_off">关</title>
+<title id="title_selftimer_2sec">自拍定时器2秒</title>
+<title id="title_selftimer_12sec">自拍定时器12秒</title>
+<title id="title_focus">对焦</title>
+<title id="title_focusmode">调焦模式</title>
+<title id="title_focusmode_aff">智能AF</title>
+<title id="title_afmode">自动对焦模式</title>
+<title id="title_afmode_multi_field">多区</title>
+<title id="title_afmode_spot">点</title>
+<title id="title_afmode_1area">场</title>
+<title id="title_afmode_zone">区</title>
+<title id="title_afmode_aftracking">跟踪</title>
+<title id="title_afmode_facedetection">人物识别</title>
+<title id="title_afmode_auto_recognize">人和动物的识别</title>
+<title id="title_touch_af">触摸自动对焦</title>
+<title id="title_touch_af_off">关</title>
+<title id="title_touch_af_on">触摸自动对焦</title>
+<title id="title_touch_af_touch_shut">触摸自动对焦+曝光</title>
+<title id="title_lightmet">测光模式</title>
+<title id="title_lightmet_spot">点</title>
+<title id="title_lightmet_center">中央重点</title>
+<title id="title_lightmet_highlight">强调亮区</title>
+<title id="title_lightmet_multi">多区</title>
+<title id="title_photoformat">照片文件格式</title>
+<title id="title_dng_reso">DNG分辨率</title>
+<title id="title_pictsizetype">最大JPG分辨率</title>
+<title id="title_colormode">图像风格</title>
+<title id="title_colormode_standard">标准</title>
+<title id="title_colormode_vivid">鲜艳</title>
+<title id="title_colormode_natural">自然</title>
+<title id="title_colormode_bw">单色</title>
+<title id="title_colormode_l_bw">高对比度单色调</title>
+<title id="title_photoaspect">照片宽高比</title>
+<title id="title_videoformat">视频文件格式</title>
+<title id="title_v_quality">视频分辨率</title>
+<title id="title_videostyle">视频画面风格</title>
+<title id="title_videostyle_standard">标准</title>
+<title id="title_videostyle_vivid">鲜艳</title>
+<title id="title_videostyle_natural">自然</title>
+<title id="title_videostyle_bw">单色</title>
+<title id="title_videostyle_l_bw">高对比度单色调</title>
+<title id="title_lut_preview">LUT配置文件</title>
+<title id="title_lut_preview_off">关</title>
+<title id="title_lut_preview_lut1">自然</title>
+<title id="title_lut_preview_lut2">经典</title>
+<title id="title_lut_usage">输出</title>
+<title id="title_perspective_control">透视校正</title>
+<title id="title_aperture">光圈</title>
+<title id="title_shutter_speed">快门速度</title>
+<title id="title_program_shift">程序切换</title>
+<title id="title_sensitivity_auto">自动ISO</title>
+<title id="title_exposure2">曝光补偿</title>
+<title id="title_whitebalance">白平衡</title>
+<title id="title_whitebalance_auto">自动</title>
+<title id="title_whitebalance_daylight">晴天</title>
+<title id="title_whitebalance_cloudy">阴天</title>
+<title id="title_whitebalance_shade">阴影</title>
+<title id="title_whitebalance_halogen">人造光</title>
+<title id="title_whitebalance_flash">闪光灯</title>
+<title id="title_whitebalance_greycard">灰平衡卡</title>
+<title id="title_whitebalance_color_temp">色温</title>
+<title id="title_digital_tri">数码变焦</title>
+<title id="title_precmode">场景模式</title>
+<title id="title_precmode_sport">运动</title>
+<title id="title_precmode_portrait">肖像</title>
+<title id="title_precmode_landscape">风景</title>
+<title id="title_precmode_night_portrait">夜间肖像</title>
+<title id="title_precmode_snow_beach">雪地/沙滩</title>
+<title id="title_precmode_fireworks">烟火</title>
+<title id="title_precmode_candle_light">烛光</title>
+<title id="title_precmode_sunset">日落</title>
+<title id="title_precmode_digiscoping">接望远镜拍摄</title>
+</language>
+
+<language code="ru" >
+<title id="title_drivemode">Режим съёмки</title>
+<title id="title_drivemode_single">Одиночн.</title>
+<title id="title_drivemode_burst_s">Серия - 2 кадр/с, 14 bit, AF</title>
+<title id="title_drivemode_burst_m">Серия - 4 кадр/с, 14 bit, AF</title>
+<title id="title_drivemode_burst_mh">Серия - 7 кадр/с, 14 bit</title>
+<title id="title_drivemode_burst_f">Серия - 9 кадр/с, 12 bit</title>
+<title id="title_drivemode_burst_ss">Серия - 15 кадр/с, 12 bit</title>
+<title id="title_drivemode_bracketing">Экспобрекетинг</title>
+<title id="title_bracket_frames">Количество снимков</title>
+<title id="title_bracket_aperture">Шаги EV</title>
+<title id="title_bracket_exposure">Экспокоррекция</title>
+<title id="title_bracket_auto">Авто</title>
+<title id="title_selftimer">Автоспуск</title>
+<title id="title_selftimer_off">Выкл.</title>
+<title id="title_selftimer_2sec">Автоспуск через 2 сек.</title>
+<title id="title_selftimer_12sec">Автоспуск через 12 сек.</title>
+<title id="title_focus">Фокусировка</title>
+<title id="title_focusmode">Режим фокусировки</title>
+<title id="title_focusmode_aff">Интел.AF</title>
+<title id="title_afmode">Режим АФ</title>
+<title id="title_afmode_multi_field">Оценочный</title>
+<title id="title_afmode_spot">Точечный</title>
+<title id="title_afmode_1area">Поле</title>
+<title id="title_afmode_zone">Зона</title>
+<title id="title_afmode_aftracking">Слежение</title>
+<title id="title_afmode_facedetection">Распознавание людей</title>
+<title id="title_afmode_auto_recognize">Распознание людей и животных</title>
+<title id="title_touch_af">АФ прикосн.</title>
+<title id="title_touch_af_off">Выкл.</title>
+<title id="title_touch_af_on">АФ прикосн.</title>
+<title id="title_touch_af_touch_shut">АФ прикосн. + спуск</title>
+<title id="title_lightmet">Замер экспозиции</title>
+<title id="title_lightmet_spot">Точечный</title>
+<title id="title_lightmet_center">Центр.-взвешен.</title>
+<title id="title_lightmet_highlight">Основанный на светлых частях</title>
+<title id="title_lightmet_multi">Оценочный</title>
+<title id="title_photoformat">Формат файла фото</title>
+<title id="title_dng_reso">Разрешение DNG</title>
+<title id="title_dng_reso_l_dng">L-DNG (60 Мп)</title>
+<title id="title_dng_reso_m_dng">M-DNG (36 Мп)</title>
+<title id="title_dng_reso_s_dng">S-DNG (18 Мп)</title>
+<title id="title_pictsizetype">Макс. разрешение JPG</title>
+<title id="title_colormode">Стили съëмки</title>
+<title id="title_colormode_standard">Стандартный</title>
+<title id="title_colormode_vivid">Яркий</title>
+<title id="title_colormode_natural">Натуральный</title>
+<title id="title_colormode_bw">Монохром.</title>
+<title id="title_colormode_l_bw">Монохром с выс. контр.</title>
+<title id="title_photoaspect">Соотношение сторон фото</title>
+<title id="title_videoformat">Формат видеофайлов</title>
+<title id="title_v_quality">Разрешение видео</title>
+<title id="title_v_quality_mov_30p_300mbps_c8k_420_10bit">29.97кадр/с/L-GOP/300Mbps/4:2:0-10bit SD/4:2:2-10bit C4K HDMI</title>
+<title id="title_v_quality_mov_25p_300mbps_c8k_420_10bit">25кадр/с/L-GOP/300Mbps/4:2:0-10bit SD/4:2:2-10bit C4K HDMI</title>
+<title id="title_v_quality_mov_c24p_300mbps_c8k_420_10bit">24кадр/с/L-GOP/300Mbps/4:2:0-10bit SD/4:2:2-10bit C4K HDMI</title>
+<title id="title_v_quality_mov_24p_300mbps_c8k_420_10bit">23.98кадр/с/L-GOP/300Mbps/4:2:0-10bit SD/4:2:2-10bit C4K HDMI</title>
+<title id="title_v_quality_mov_30p_300mbps_8k_420_10bit">29.97кадр/с/L-GOP/300Mbps/4:2:0-10bit SD/4:2:2-10bit 4K HDMI</title>
+<title id="title_v_quality_mov_25p_300mbps_8k_420_10bit">25кадр/с/L-GOP/300Mbps/4:2:0-10bit SD/4:2:2-10bit 4K HDMI</title>
+<title id="title_v_quality_mov_c24p_300mbps_8k_420_10bit">24кадр/с/L-GOP/300Mbps/4:2:0-10bit SD/4:2:2-10bit 4K HDMI</title>
+<title id="title_v_quality_mov_24p_300mbps_8k_420_10bit">23.98кадр/с/L-GOP/300Mbps/4:2:0-10bit SD/4:2:2-10bit 4K HDMI</title>
+<title id="title_v_quality_mov_60p_600mbps_c4k_422_10bit">59.94кадр/с/All-I/600Mbps/4:2:2-10bit SD &amp; HDMI</title>
+<title id="title_v_quality_mov_50p_600mbps_c4k_422_10bit">50кадр/с/All-I/600Mbps/4:2:2-10bit SD &amp; HDMI</title>
+<title id="title_v_quality_mov_c48p_600mbps_c4k_422_10bit">48кадр/с/All-I/600Mbps/4:2:2-10bit SD/4:2:2-10bit 24fps HDMI</title>
+<title id="title_v_quality_mov_48p_600mbps_c4k_422_10bit">47.95кадр/с/All-I/600Mbps/4:2:2-10bit SD/4:2:2-10bit 23.98fps HDMI</title>
+<title id="title_v_quality_mov_30p_400mbps_c4k_10bit">29.97кадр/с/All-I/400Mbps/4:2:2-10bit SD &amp; HDMI</title>
+<title id="title_v_quality_mov_25p_400mbps_c4k_10bit">25кадр/с/All-I/400Mbps/4:2:2-10bit SD &amp; HDMI</title>
+<title id="title_v_quality_mov_c24p_400mbps_c4k_10bit">24кадр/с/All-I/400Mbps/4:2:2-10bit SD &amp; HDMI</title>
+<title id="title_v_quality_mov_24p_400mbps_c4k_10bit">23.98кадр/с/All-I/400Mbps/4:2:2-10bit SD &amp; HDMI</title>
+<title id="title_v_quality_mov_60p_600mbps_4k_422_10bit">59.94кадр/с/All-I/600Mbps/4:2:2-10bit SD &amp; HDMI</title>
+<title id="title_v_quality_mov_50p_600mbps_4k_422_10bit">50кадр/с/All-I/600Mbps/4:2:2-10bit SD &amp; HDMI</title>
+<title id="title_v_quality_mov_c48p_600mbps_4k_422_10bit">48кадр/с/All-I/600Mbps/4:2:2-10bit SD/4:2:2-10bit 24fps HDMI</title>
+<title id="title_v_quality_mov_48p_600mbps_4k_422_10bit">47.95кадр/с/All-I/600Mbps/4:2:2-10bit SD/4:2:2-10bit 23.98fps HDMI</title>
+<title id="title_v_quality_mov_30p_400mbps_4k_10bit">29.97кадр/с/All-I/400Mbps/4:2:2-10bit SD &amp; HDMI</title>
+<title id="title_v_quality_mov_25p_400mbps_4k_10bit">25кадр/с/All-I/400Mbps/4:2:2-10bit SD &amp; HDMI</title>
+<title id="title_v_quality_mov_c24p_400mbps_4k_10bit">24кадр/с/All-I/400Mbps/4:2:2-10bit SD &amp; HDMI</title>
+<title id="title_v_quality_mov_24p_400mbps_4k_10bit">23.98кадр/с/All-I/400Mbps/4:2:2-10bit SD &amp; HDMI</title>
+<title id="title_v_quality_prores_60p_454mbps_422_hq_10bit">59.94кадр/с/454Mbps/422HQ SD &amp; HDMI</title>
+<title id="title_v_quality_prores_50p_378mbps_422_hq_10bit">50кадр/с/378Mbps/422HQ SD &amp; HDMI</title>
+<title id="title_v_quality_prores_30p_227mbps_422_hq_10bit">29.97кадр/с/227Mbps/422HQ SD &amp; HDMI</title>
+<title id="title_v_quality_prores_25p_189mbps_422_hq_10bit">25кадр/с/189Mbps/422HQ SD &amp; HDMI</title>
+<title id="title_v_quality_prores_c24p_182mbps_422_hq_10bit">24кадр/с/182Mbps/422HQ SD &amp; HDMI</title>
+<title id="title_v_quality_prores_24p_181mbps_422_hq_10bit">23.98кадр/с/181Mbps/422HQ SD &amp; HDMI</title>
+<title id="title_v_quality_mov_120p_400mbps_422_10bit">119.88кадр/с/All-I/400Mbps/4:2:2-10bit SD &amp; HDMI</title>
+<title id="title_v_quality_mov_100p_400mbps_422_10bit">100кадр/с/All-I/400Mbps/4:2:2-10bit SD &amp; HDMI</title>
+<title id="title_v_quality_mov_60p_200mbps_10bit">59.94кадр/с/All-I/200Mbps/4:2:2-10bit SD &amp; HDMI</title>
+<title id="title_v_quality_mov_50p_200mbps_10bit">50кадр/с/All-I/200Mbps/4:2:2-10bit SD &amp; HDMI</title>
+<title id="title_v_quality_mov_c48p_200mbps_422_10bit">48кадр/с/All-I/200Mbps/4:2:2-10bit SD &amp; HDMI</title>
+<title id="title_v_quality_mov_48p_200mbps_422_10bit">47.95кадр/с/All-I/200Mbps/4:2:2-10bit SD &amp; HDMI</title>
+<title id="title_v_quality_mov_30p_200mbps_10bit">29.97кадр/с/All-I/200Mbps/4:2:2-10bit SD &amp; HDMI</title>
+<title id="title_v_quality_mov_25p_200mbps_10bit">25кадр/с/All-I/200Mbps/4:2:2-10bit SD &amp; HDMI</title>
+<title id="title_v_quality_mov_c24p_200mbps_10bit">24кадр/с/All-I/200Mbps/4:2:2-10bit SD &amp; HDMI</title>
+<title id="title_v_quality_mov_24p_200mbps_10bit">23.98кадр/с/All-I/200Mbps/4:2:2-10bit SD &amp; HDMI</title>
+<title id="title_v_quality_mov_120p_100mbps_420_10bit">119.88кадр/с/L-GOP/100Mbps/4:2:0-10bit SD &amp; HDMI</title>
+<title id="title_v_quality_mov_100p_100mbps_420_10bit">100кадр/с/L-GOP/100Mbps/4:2:0-10bit SD &amp; HDMI</title>
+<title id="title_v_quality_mp4_30p_300mbps_8k_10bit">29.97кадр/с/L-GOP/300Mbps/4:2:0-10bit SD/4:2:2-10bit 4K HDMI</title>
+<title id="title_v_quality_mp4_25p_300mbps_8k_10bit">25кадр/с/L-GOP/300Mbps/4:2:0-10bit SD/4:2:2-10bit 4K HDMI</title>
+<title id="title_v_quality_mp4_24p_300mbps_8k_10bit">23.98кадр/с/L-GOP/300Mbps/4:2:0-10bit SD/4:2:2-10bit 4K HDMI</title>
+<title id="title_v_quality_mp4_60p_100mbps_4k_10bit">59.94кадр/с/L-GOP/100Mbps/4:2:0-10bit SD &amp; HDMI/H.265 </title>
+<title id="title_v_quality_mp4_50p_100mbps_4k_10bit">50кадр/с/L-GOP/100Mbps/4:2:0-10bit SD &amp; HDMI/H.265 </title>
+<title id="title_v_quality_mp4_30p_100mbps_4k">29.97кадр/с/L-GOP/100Mbps/4:2:0-8bit SD &amp; HDMI/H.264</title>
+<title id="title_v_quality_mp4_25p_100mbps_4k">25кадр/с/L-GOP/100Mbps/4:2:0-8bit SD &amp; HDMI/H.264</title>
+<title id="title_v_quality_mp4_24p_100mbps_4k">23.98кадр/с/L-GOP/100Mbps/4:2:0-8bit SD &amp; HDMI/H.264</title>
+<title id="title_v_quality_mp4_60p_28mbps">59.94кадр/с/L-GOP/28Mbps/4:2:0-8bit SD &amp; HDMI</title>
+<title id="title_v_quality_mp4_50p_28mbps">50кадр/с/L-GOP/28Mbps/4:2:0-8bit SD &amp; HDMI</title>
+<title id="title_v_quality_mp4_30p_20mbps">29.97кадр/с/L-GOP/20Mbps/4:2:0-8bit SD &amp; HDMI</title>
+<title id="title_v_quality_mp4_25p_20mbps">25кадр/с/L-GOP/20Mbps/4:2:0-8bit SD &amp; HDMI</title>
+<title id="title_v_quality_mp4_24p_24mbps">23.98кадр/с/L-GOP/20Mbps/4:2:0-8bit SD &amp; HDMI</title>
+<title id="title_videostyle">Cтили видео</title>
+<title id="title_videostyle_standard">Стандартный</title>
+<title id="title_videostyle_vivid">Яркий</title>
+<title id="title_videostyle_natural">Натуральный</title>
+<title id="title_videostyle_bw">Монохром.</title>
+<title id="title_videostyle_l_bw">Монохром с выс. контр.</title>
+<title id="title_lut_preview">Профиль LUT</title>
+<title id="title_lut_preview_off">Выкл.</title>
+<title id="title_lut_preview_lut1">Натуральный</title>
+<title id="title_lut_preview_lut2">Классический</title>
+<title id="title_lut_usage">Выход</title>
+<title id="title_lut_usage_evf_lcd">Экран эл. видоиск.</title>
+<title id="title_perspective_control">Коррекция перспективы</title>
+<title id="title_aperture">Диафрагма</title>
+<title id="title_shutter_speed">Выдержка</title>
+<title id="title_program_shift">Сдвиг программы</title>
+<title id="title_sensitivity_auto">Авто ISO</title>
+<title id="title_exposure2">Экспокоррекция</title>
+<title id="title_whitebalance">Баланс белого</title>
+<title id="title_whitebalance_auto">Авто</title>
+<title id="title_whitebalance_daylight">Солнечно</title>
+<title id="title_whitebalance_cloudy">Облачно</title>
+<title id="title_whitebalance_shade">Тень</title>
+<title id="title_whitebalance_halogen">Лампа накал.</title>
+<title id="title_whitebalance_flash">Вспышка</title>
+<title id="title_whitebalance_greycard">Серая карта</title>
+<title id="title_whitebalance_color_temp">Цветовая температура</title>
+<title id="title_digital_tri">Цифровой зум</title>
+<title id="title_digital_tri_28">28 мм</title>
+<title id="title_digital_tri_35">35 мм</title>
+<title id="title_digital_tri_50">50 мм</title>
+<title id="title_digital_tri_75">75 мм</title>
+<title id="title_digital_tri_90">90 мм</title>
+<title id="title_precmode">Сюжет. программы</title>
+<title id="title_precmode_full_auto">АВТО</title>
+<title id="title_precmode_sport">Спорт</title>
+<title id="title_precmode_portrait">Портрет</title>
+<title id="title_precmode_landscape">Пейзаж</title>
+<title id="title_precmode_night_portrait">Ночной портрет</title>
+<title id="title_precmode_snow_beach">Снег/пляж</title>
+<title id="title_precmode_fireworks">Фейрверк</title>
+<title id="title_precmode_candle_light">Свет свечи</title>
+<title id="title_precmode_sunset">Закат</title>
+<title id="title_precmode_digiscoping">Дигископинг</title>
+</language>
+
+<language code="ko" >
+<title id="title_drivemode">드라이브 모드</title>
+<title id="title_drivemode_single">한 장</title>
+<title id="title_drivemode_burst_s">연속 촬영 - 2 fps / 14 bit / AF</title>
+<title id="title_drivemode_burst_m">연속 촬영 - 4 fps / 14 bit / AF</title>
+<title id="title_drivemode_burst_mh">연속 촬영 - 7 fps / 14 bit</title>
+<title id="title_drivemode_burst_f">연속 촬영 - 9 fps / 12 bit</title>
+<title id="title_drivemode_burst_ss">연속 촬영 - 15 fps / 12 bit</title>
+<title id="title_drivemode_bracketing">브라케팅</title>
+<title id="title_bracket_frames">프레임 수</title>
+<title id="title_bracket_aperture">EV 단계</title>
+<title id="title_bracket_exposure">노출 보정</title>
+<title id="title_bracket_auto">자동</title>
+<title id="title_selftimer">셀프 타이머</title>
+<title id="title_selftimer_2sec">셀프 타이머 2초</title>
+<title id="title_selftimer_12sec">셀프 타이머 12초</title>
+<title id="title_focus">초점</title>
+<title id="title_focusmode">초점모드</title>
+<title id="title_focusmode_aff">지능형 AF</title>
+<title id="title_afmode">AF 모드</title>
+<title id="title_afmode_multi_field">다중</title>
+<title id="title_afmode_spot">스팟</title>
+<title id="title_afmode_1area">필드</title>
+<title id="title_afmode_zone">영역</title>
+<title id="title_afmode_aftracking">트랙킹</title>
+<title id="title_afmode_facedetection">개인 인식</title>
+<title id="title_afmode_auto_recognize">사람 및 동물 인식</title>
+<title id="title_touch_af">AF 터치</title>
+<title id="title_touch_af_on">AF 터치</title>
+<title id="title_touch_af_touch_shut">AF 터치 + 셔터 릴리즈</title>
+<title id="title_lightmet">노출 측정</title>
+<title id="title_lightmet_spot">스팟</title>
+<title id="title_lightmet_center">중앙 중점</title>
+<title id="title_lightmet_highlight">하이라이트 중점 측광</title>
+<title id="title_lightmet_multi">다중</title>
+<title id="title_photoformat">사진 파일 형식</title>
+<title id="title_dng_reso">DNG 해상도</title>
+<title id="title_pictsizetype">최대 JPG 해상도</title>
+<title id="title_colormode">필름 스타일</title>
+<title id="title_colormode_standard">표준</title>
+<title id="title_colormode_vivid">생동감</title>
+<title id="title_colormode_natural">자연스러움</title>
+<title id="title_colormode_bw">흑백</title>
+<title id="title_colormode_l_bw">흑백 고대비</title>
+<title id="title_photoaspect">사진 화면 비율</title>
+<title id="title_videoformat">비디오 파일 형식</title>
+<title id="title_v_quality">비디오 해상도</title>
+<title id="title_videostyle">Video Look</title>
+<title id="title_videostyle_standard">표준</title>
+<title id="title_videostyle_vivid">생동감</title>
+<title id="title_videostyle_natural">자연스러움</title>
+<title id="title_videostyle_bw">흑백</title>
+<title id="title_videostyle_l_bw">흑백 고대비</title>
+<title id="title_lut_preview">LUT 프로파일</title>
+<title id="title_lut_preview_lut1">자연스러움</title>
+<title id="title_lut_preview_lut2">클래식</title>
+<title id="title_lut_usage">출력</title>
+<title id="title_perspective_control">원근 보정</title>
+<title id="title_aperture">조리개</title>
+<title id="title_shutter_speed">셔터 속도</title>
+<title id="title_program_shift">장면 모드 전환</title>
+<title id="title_sensitivity_auto">자동 ISO</title>
+<title id="title_exposure2">노출 보정</title>
+<title id="title_whitebalance">화이트 밸런스</title>
+<title id="title_whitebalance_auto">자동</title>
+<title id="title_whitebalance_daylight">맑음</title>
+<title id="title_whitebalance_cloudy">흐림</title>
+<title id="title_whitebalance_shade">그늘</title>
+<title id="title_whitebalance_halogen">텅스텐 라이트</title>
+<title id="title_whitebalance_flash">플래시</title>
+<title id="title_whitebalance_greycard">그레이 카드</title>
+<title id="title_whitebalance_color_temp">색온도</title>
+<title id="title_digital_tri">디지털 줌</title>
+<title id="title_digital_tri_28">28mm</title>
+<title id="title_digital_tri_35">35mm</title>
+<title id="title_digital_tri_50">50mm</title>
+<title id="title_precmode">장면 모드</title>
+<title id="title_precmode_sport">스포츠</title>
+<title id="title_precmode_portrait">인물</title>
+<title id="title_precmode_landscape">풍경</title>
+<title id="title_precmode_night_portrait">야간 인물</title>
+<title id="title_precmode_snow_beach">설경/해변</title>
+<title id="title_precmode_fireworks">불꽃놀이</title>
+<title id="title_precmode_candle_light">촛불</title>
+<title id="title_precmode_sunset">일몰</title>
+<title id="title_precmode_digiscoping">디지 스코핑</title>
+</language>
+
+</titlelist>
+
+</menuset>
+
+</camrply>
