@@ -1,6 +1,6 @@
 # HTTP API
 
-HTTP endpoints starting with `/cam.cgi` is used to manager camera settings.
+HTTP endpoints starting with `/cam.cgi` was used to manager camera settings before the firmware v3.0.0.
 
 * Server (camera): 192.168.54.1
 * Client (mobile app): 192.168.54.10
@@ -654,6 +654,29 @@ Server: Panasonic
 <camrply><result>ok</result></camrply>
 ```
 
+### /cam.cgi?mode=camctrl&type=fw_update_mode
+
+```xml
+GET /cam.cgi?mode=camctrl&type=fw_update_mode&value=V3.0.0 HTTP/1.1
+Host: 192.168.54.1
+Accept: */*
+Accept-Encoding: deflate, gzip
+
+
+HTTP/1.1 200 OK
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Content-Type: text/xml
+Content-Length: 78
+Date: Thu, 12 Dec 2024 15:05:41 GMT
+Server: Panasonic
+
+<?xml version="1.0" encoding="UTF-8"?>
+<camrply><result>ok</result></camrply>
+```
+
+
 ## lutctrl
 
 ### /cam.cgi?mode=lutctrl&type=getlist
@@ -701,3 +724,53 @@ Server: Panasonic
 ```
 (Response is reformatted)
 
+## startsenddata
+
+### /cam.cgi?mode=startsenddata&type=fw
+
+```xml
+GET /cam.cgi?mode=startsenddata&type=fw&value=211516416 HTTP/1.1
+Host: 192.168.54.1
+Accept: */*
+Accept-Encoding: deflate, gzip
+
+
+HTTP/1.1 200 OK
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Content-Type: text/xml
+Content-Length: 135
+Date: Thu, 12 Dec 2024 15:05:41 GMT
+Server: Panasonic
+
+<?xml version="1.0" encoding="UTF-8"?>
+<camrply>
+<result>ok</result>
+<method>separate</method>
+<bufsize>61460</bufsize>
+</camrply>
+```
+
+```xml
+POST /cam.cgi?mode=senddata HTTP/1.1
+Host: 192.168.54.1
+Accept: */*
+Accept-Encoding: deflate, gzip
+Content-Type: application/octet-stream
+Content-Length: 61460
+
+<data>
+
+HTTP/1.1 200 OK
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Content-Type: text/xml
+Content-Length: 78
+Date: Thu, 12 Dec 2024 15:05:42 GMT
+Server: Panasonic
+
+<?xml version="1.0" encoding="UTF-8"?>
+<camrply><result>ok</result></camrply>
+```
