@@ -144,10 +144,10 @@ MTP Response: OK
 
 ## Heartbeat
 
-### 0x901D
+### LEKeepSessionActive
 
 ```
-0000   12 00 00 00 06 00 00 00 01 00 00 00 1d 90 1d 00   ................
+0000   12 00 00 00 06 00 00 00 01 00 00 00 1d 90 18 00   ................
 0010   00 00                                             ..
 
 
@@ -157,14 +157,15 @@ PTP/IP: Operation Request Packet
     Data Phase Info: 0x00000001
     Operation Code: 0x901d
     TransactionID Offset: 14
-    Transaction ID: 0x0000001d
-MTP(PTP) Operation
-    Operation Code: 0x901D (Unknown)
-    TransactionID: 0x001D (Unknown)
+    Transaction ID: 0x00000018
+MTP(PTP): LEKeepSessionActive
+    Operation Code: 0x901D (LEKeepSessionActive)
+    TransactionID: 0x0018 (LEKeepSessionActive)
+
 ```
 
 ```
-0000   22 00 00 00 07 00 00 00 01 20 1d 00 00 00 00 00   "........ ......
+0000   22 00 00 00 07 00 00 00 01 20 18 00 00 00 00 00   "........ ......
 0010   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
 0020   00 00                                             ..
 
@@ -174,15 +175,16 @@ PTP/IP: Operation Response Packet
     Packet Type: 0x00000007
     Response Code: 0x2001
     TransactionID Offset: 10
-    Transaction ID: 0x0000001d
+    Transaction ID: 0x00000018
 MTP Response: OK
     Code: OK (0x2001)
-    TransactionID: 0x001D (Unknown)
+    TransactionID: 0x0018 (LEKeepSessionActive)
     Parameter 1: 0x00000000
     Parameter 2: 0x00000000
     Parameter 3: 0x00000000
     Parameter 4: 0x00000000
     Parameter 5: 0x00000000
+
 ```
 
 ## Other Operations (WIP)
@@ -191,7 +193,7 @@ MTP Response: OK
 
 ### GetObjectHandles
 
-### 0x9037
+### LEGetObjectPropList
 
 ### GetLensParameter
 
@@ -199,9 +201,9 @@ MTP Response: OK
 
 ### GetDevicePropValue
 
-### 0x9033
+### LEGetLookPropList
 
-### 0x9044
+### LEGetPartialObject64
 
 
 ## Event
