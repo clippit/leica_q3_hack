@@ -1,7 +1,7 @@
 # Tools
 
-* LeicaPanasonicCameraFirmware.hexpat: ImHEX Pattern for the firmware file. Leica and Panasonic share the same firmware format. However, Panasonic Lumix firmwares are not XOR-obscured.
-* xor_decrypt.py: Utility for XOR
+* [LeicaPanasonicCameraFirmware.hexpat](./LeicaPanasonicCameraFirmware.hexpat): [ImHex](https://imhex.werwolv.net/) Pattern for the firmware file. Leica and Panasonic share the same firmware format. However, Panasonic Lumix firmwares are not XOR-obscured.
+* [xor_decrypt.py](./xor_decrypt.py): Utility for XOR
 
 # Leica Q3 firmware Analysis
 
