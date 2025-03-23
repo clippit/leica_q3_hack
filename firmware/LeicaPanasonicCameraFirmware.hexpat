@@ -5,8 +5,8 @@ import type.magic;
 import type.size;
 
 bitfield FirmwareVersion {
-    patch: 4;
     minor: 4;
+    patch: 4;
     u8 major;
 } [[format("version_format")]];
 
@@ -59,7 +59,7 @@ struct SectionHeader {
     u8 maybe_checksum[64] [[sealed, format("hash_format")]];
     padding[64];
     FileHeader file_header_dup;
-    u32 section_data_offset;
+    u32 section_header_size;
     type::Size32 section_data_size;
     u32 section_number;
     Section section_list[section_number];
