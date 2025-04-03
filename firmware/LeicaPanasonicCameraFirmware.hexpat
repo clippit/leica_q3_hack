@@ -11,8 +11,8 @@ bitfield FirmwareVersion {
 } [[format("version_format")]];
 
 enum StorageType : u32 {
-    TYPE1 = 0x02,
-    TYPE2 = 0x03,
+    TYPE2 = 0x02,
+    TYPE3 = 0x03,
 };
 
 struct BuildDateTime {
